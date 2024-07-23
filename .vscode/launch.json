@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LetterCombinations",
+      "request": "launch",
+      "mainClass": "LetterCombinations",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "Permutations",
+      "request": "launch",
+      "mainClass": "Recursion.Permutations.java.Permutations",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "PossibleSubsets",
       "request": "launch",
       "mainClass": "Recursion.Subsets.java.PossibleSubsets",
