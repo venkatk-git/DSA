@@ -19,7 +19,7 @@ public class LetterCombinations {
         m.put('8', "tuv");
         m.put('9', "wxyz");
 
-        return _letterCombinations(digits, "", new ArrayList<String>());
+        return _letterCombinations(digits, "", new ArrayList<>());
     }
 
     private static List<String> _letterCombinations(String up, String p, List<String> list){
