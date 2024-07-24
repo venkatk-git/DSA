@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NumRollsToTarget",
+      "request": "launch",
+      "mainClass": "Recursion.NumRollsToTarget.java.NumRollsToTarget",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "LetterCombinations",
       "request": "launch",
       "mainClass": "LetterCombinations",
