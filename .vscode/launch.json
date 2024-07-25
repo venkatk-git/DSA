@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MazeDR",
+      "request": "launch",
+      "mainClass": "Backtracking.MazeDR.java.MazeDR",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "NumRollsToTarget",
       "request": "launch",
       "mainClass": "Recursion.NumRollsToTarget.java.NumRollsToTarget",
