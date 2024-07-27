@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MazeDLR",
+      "request": "launch",
+      "mainClass": "Backtracking.MazeDLR.java.MazeDLR",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "MazeDR",
       "request": "launch",
       "mainClass": "Backtracking.MazeDR.java.MazeDR",
