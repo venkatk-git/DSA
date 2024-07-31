@@ -2,7 +2,7 @@ package Backtracking.NQueens.java;
 
 public class NQueens {
     public static void main(String[] args) {
-        boolean[][] board = new boolean[8][8];
+        boolean[][] board = new boolean[4][4];
 
         int count = queens(board, 0);
         System.out.println(count);
