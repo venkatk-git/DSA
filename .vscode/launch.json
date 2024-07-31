@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "GridTraveler",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.GridTraveler.java.GridTraveler",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "NQueens",
       "request": "launch",
       "mainClass": "Backtracking.NQueens.java.NQueens",

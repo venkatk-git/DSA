@@ -23,7 +23,6 @@ public class NQueens {
     }
 
     private static boolean isSafe(boolean[][] board, int r, int c){
-
         for(int i = 0; i < board.length; i++)
             if(board[i][c])
                 return false;
