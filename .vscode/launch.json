@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NQueens",
+      "request": "launch",
+      "mainClass": "Backtracking.NQueens.java.NQueens",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "MazeDLR",
       "request": "launch",
       "mainClass": "Backtracking.MazeDLR.java.MazeDLR",
