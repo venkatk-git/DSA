@@ -5,16 +5,16 @@ import java.util.HashMap;
 public class CanConstruct {
     public static void main(String[] args){
         String[] sArr = {
-            "e",
+            "eee",
             "y",
             "xxd",
             "eeed",
             "abc",
             "eeeff",
-            "f"
+            "ff"
         };
 
-        boolean result = canConstruct("", sArr, new HashMap<>());
+        boolean result = canConstruct("eeeffff", sArr, new HashMap<>());
         System.out.println(result);   
     }
 
