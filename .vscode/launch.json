@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BestSum",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Memoization.BestSum.java.BestSum",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "HowSum",
       "request": "launch",
       "mainClass": "DynamicProgramming.Memoization.HowSum.java.HowSum",
