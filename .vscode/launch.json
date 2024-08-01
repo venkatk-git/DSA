@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CanConstruct",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Memoization.CanContruct.java.CanConstruct",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "BestSum",
       "request": "launch",
       "mainClass": "DynamicProgramming.Memoization.BestSum.java.BestSum",
