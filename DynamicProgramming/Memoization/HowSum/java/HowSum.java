@@ -7,32 +7,25 @@ public class HowSum {
         ArrayList<Integer> nums = new ArrayList<>();
         nums.add(7); nums.add(15);
 
-        ArrayList<Integer> result = howSum(nums, 22, new ArrayList<>(), new HashMap<>());
+        ArrayList<Integer> result = howSum(nums, 22);
         System.out.println(result);
     }
 
-    private static ArrayList<Integer> howSum(ArrayList<Integer> nums, int target, ArrayList<Integer> list, HashMap<Integer, ArrayList<Integer>> memo){
-        if(memo.containsKey(target))
-            return memo.get(target);
-        
-        if(target == 0) 
-            return list;
+    private static ArrayList<Integer> howSum(ArrayList<Integer> nums, int target){
+        if(target == 0) return new ArrayList<>();
 
         if(target < 0){
           return null;  
         } 
 
         for(int num : nums){
-            list.add(num);
-            ArrayList<Integer> result = howSum(nums, target - num, list, memo);
+            ArrayList<Integer> result = howSum(nums, target - num);
             if (result != null) {
-                memo.put(target, result);
+                result.add(num);
                 return result;
             }
-            list.remove(list.size() - 1);
         }
 
-        memo.put(target, null);
         return null;
     }
 }
