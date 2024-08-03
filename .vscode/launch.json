@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CanSum",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Tabulation.CanSum.java.CanSum",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "GridTraveller",
       "request": "launch",
       "mainClass": "DynamicProgramming.Tabulation.GridTraveller.java.GridTraveller",
