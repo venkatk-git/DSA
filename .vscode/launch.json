@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "GridTraveller",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Tabulation.GridTraveller.java.GridTraveller",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "Fibonacci",
       "request": "launch",
       "mainClass": "DynamicProgramming.Tabulation.Fibonacci.java.Fibonacci",
