@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Tabulation.Fibonacci.java.Fibonacci",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "AllConstruct",
       "request": "launch",
       "mainClass": "DynamicProgramming.Memoization.AllConstruct.java.AllConstruct",
