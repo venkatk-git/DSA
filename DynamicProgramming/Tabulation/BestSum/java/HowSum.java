@@ -1,12 +1,12 @@
-package DynamicProgramming.Tabulation.HowSum.java;
+package DynamicProgramming.Tabulation.BestSum.java;
 
 import java.util.Arrays;
 
 public class HowSum {
     public static void main(String[] args) {
-        int[] nums = {5, 3, 4};
+        int[] nums = {5, 2, 3, 7};
 
-        int[] result = howSum(nums, 12);
+        int[] result = bestSum(nums, 8);
         System.out.println(Arrays.toString(result));
     }
 
@@ -21,7 +21,7 @@ public class HowSum {
         return res;
     }
 
-    private static int[] howSum(int[] nums, int target){
+    private static int[] bestSum(int[] nums, int target){
         int[][] table = new int[target + 1][];
         Arrays.fill(table, null);
 
@@ -34,7 +34,8 @@ public class HowSum {
             for(int num : nums){
                 if(table[i] != null && i + num <= target){
                     int[] res = join(table[i], num);
-                    table[i + num] = res;
+                    if(table[i + num] == null || res.length < table[i + num].length)
+                        table[i + num] = res;
                 }
             }
         }
