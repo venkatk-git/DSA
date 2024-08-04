@@ -21,7 +21,7 @@ public class CanConstruct {
     private static boolean  isPresent(String s, String pre){
         int i = 0, j = 0;
 
-        if(pre.length() != s.length())
+        if(pre.length() > s.length())
             return false;
 
         while(i < s.length() && j < pre.length()){

@@ -2,7 +2,7 @@ package DynamicProgramming.Tabulation.BestSum.java;
 
 import java.util.Arrays;
 
-public class HowSum {
+public class BestSum {
     public static void main(String[] args) {
         int[] nums = {5, 2, 3, 7};
 

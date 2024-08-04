@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CanConstruct",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Tabulation.CanConstruct.java.CanConstruct",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "HowSum",
       "request": "launch",
       "mainClass": "DynamicProgramming.Tabulation.BestSum.java.HowSum",
