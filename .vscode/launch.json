@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CountConstruct",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Tabulation.CountConstruct.java.CountConstruct",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "CanConstruct",
       "request": "launch",
       "mainClass": "DynamicProgramming.Tabulation.CanConstruct.java.CanConstruct",
