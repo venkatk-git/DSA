@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestIncSubSeq",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Tabulation.LongestIncSubSeq.java.LongestIncSubSeq",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "CoinChange",
       "request": "launch",
       "mainClass": "DynamicProgramming.Tabulation.CoinChange.java.CoinChange",
