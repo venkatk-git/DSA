@@ -1,7 +1,6 @@
 package Backtracking.CombinationSum.java;
 
 import java.util.*;
-import jdk.jfr.MemoryAddress;
 
 public class CombinationSum {
     public static void main(String[] args) {
@@ -21,7 +20,7 @@ public class CombinationSum {
         System.out.println(result3);
     }
 
-    private static HashMap<Integer, List<List<Integer>>> memo = new HashMap<Integer, List<List<Integer>>>();
+    private static final HashMap<Integer, List<List<Integer>>> memo = new HashMap<>();
 
     private static List<List<Integer>> combinationSum(int[] candidates, int target, int curr, List<Integer> combination, List<List<Integer>> combinations){
         if(memo.containsKey(target))
