@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "WordBreak",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Memoization.WorkBreak.java.WordBreak",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "LongestIncSubSeq",
       "request": "launch",
       "mainClass": "DynamicProgramming.Tabulation.LongestIncSubSeq.java.LongestIncSubSeq",
