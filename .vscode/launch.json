@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CombinationSum",
+      "request": "launch",
+      "mainClass": "Backtracking.CombinationSum.java.CombinationSum",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "WordBreak",
       "request": "launch",
       "mainClass": "DynamicProgramming.Memoization.WorkBreak.java.WordBreak",
