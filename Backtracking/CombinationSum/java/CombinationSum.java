@@ -29,8 +29,10 @@ public class CombinationSum {
         if(target == 0){
             List<Integer> validCombination = new ArrayList<>(combination);
             combinations.add(validCombination);
+
             combination.removeLast();
             memo.put(target, combinations);
+            
             return combinations;
         }
 
@@ -40,10 +42,9 @@ public class CombinationSum {
         }
 
         for(int i = curr; i < candidates.length; i++){
-            int candidate = candidates[i];
             List<Integer> newCombination = new ArrayList<>(combination);
-            newCombination.add(candidate);
-            combinationSum(candidates, target - candidate, curr++, newCombination, combinations);
+            newCombination.add(candidates[i]);
+            combinationSum(candidates, target - candidates[i], curr++, newCombination, combinations);
         }
 
         memo.put(target, combinations);
