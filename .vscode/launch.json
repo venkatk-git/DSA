@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "UniquePaths",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Memoization.UniquePaths.java.UniquePaths",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "DecodeWays",
       "request": "launch",
       "mainClass": "DynamicProgramming.Memoization.DecodeWays.java.DecodeWays",
