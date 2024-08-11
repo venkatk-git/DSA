@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DecodeWays",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Memoization.DecodeWays.java.DecodeWays",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "HouseRobber",
       "request": "launch",
       "mainClass": "DynamicProgramming.Memoization.HouseRobber.java.HouseRobber",
