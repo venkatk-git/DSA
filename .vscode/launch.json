@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "StacksAndQueues.Queue.Implementation.java.Main",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "StacksAndQueues.Stack.Implementation.java.Main",
       "projectName": "DSA_175c1f96"
     },

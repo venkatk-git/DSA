@@ -3,18 +3,18 @@ package StacksAndQueues.Stack.Implementation.java;
 public class Stack {
     protected int[] stack;  
     private static final int DEFAULT_SIZE = 2;
-    private int ptr = -1;
+    private int ptr = 0;
 
     public Stack(){
         this.stack = new int[DEFAULT_SIZE];
     }
 
     private boolean isFull(){
-        return ptr == stack.length - 1;
+        return ptr == stack.length;
     }
 
     private boolean isEmpty(){
-        return ptr == -1;
+        return ptr == 0;
     }
 
     private void reSize(){
@@ -29,15 +29,15 @@ public class Stack {
         if(isFull())
             reSize();
 
-        stack[++ptr] = val;
+        stack[ptr++] = val;
         return true;
     }
-
+    
     public int pop(){
         if(isEmpty())
-            return -1;
-
-        return stack[ptr--];
+        return -1;
+        
+        return stack[--ptr];
     }
 
     public int peek(){
