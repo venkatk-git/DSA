@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MajorityElement2",
+      "request": "launch",
+      "mainClass": "LeetCode.MajorityElement2.java.MajorityElement2",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "StacksAndQueues.Queue.Implementation.java.Main",
