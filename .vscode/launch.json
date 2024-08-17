@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaximumSubArray",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Memoization.MaximumSubArray.java.MaximumSubArray",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "MajorityElement2",
       "request": "launch",
       "mainClass": "LeetCode.MajorityElement2.java.MajorityElement2",
