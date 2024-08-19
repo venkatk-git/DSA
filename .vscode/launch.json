@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ClimbingStairs",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Memoization.ClimbingStairs.java.ClimbingStairs",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "MaximumSubArray",
       "request": "launch",
       "mainClass": "DynamicProgramming.Memoization.MaximumSubArray.java.MaximumSubArray",
