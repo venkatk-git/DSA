@@ -4,7 +4,8 @@ import java.util.HashMap;
 
 class ClimbingStairs{
     public static void main(String[] args) {
-        System.out.println(climbingStairs(22));
+        int numberOfStairs = 22;
+        System.out.println(climbingStairs(numberOfStairs));
     }
 
     private static int climbingStairs(int n){
