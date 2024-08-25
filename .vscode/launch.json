@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ConstantWindow",
+      "request": "launch",
+      "mainClass": "SlidingWindow.ConstantWindow.java.ConstantWindow",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "ClimbingStairs",
       "request": "launch",
       "mainClass": "DynamicProgramming.Memoization.ClimbingStairs.java.ClimbingStairs",
