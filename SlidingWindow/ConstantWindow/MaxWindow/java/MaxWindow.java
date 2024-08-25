@@ -1,14 +1,14 @@
-package SlidingWindow.ConstantWindow.java;
+package SlidingWindow.ConstantWindow.MaxWindow.java;
 
-public class ConstantWindow {
+public class MaxWindow {
     public static void main(String[] args){
         int[] nums = {3, 0, 9, -3, 19, 7};
         int windowSize = 3;
 
-        System.out.println(constantWindow(nums, windowSize));
+        System.out.println(maxWindow(nums, windowSize));
     }
 
-    private static int constantWindow(int[] nums, int windowSize){
+    private static int maxWindow(int[] nums, int windowSize){
         int ws = 0;
         int we = windowSize - 1;
         int res = 0;

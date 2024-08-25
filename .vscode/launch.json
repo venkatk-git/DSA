@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaxWindow",
+      "request": "launch",
+      "mainClass": "SlidingWindow.ConstantWindow.MaxWindow.java.MaxWindow",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "ConstantWindow",
       "request": "launch",
       "mainClass": "SlidingWindow.ConstantWindow.java.ConstantWindow",
