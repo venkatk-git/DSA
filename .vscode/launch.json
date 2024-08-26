@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Trees.BinaryTree.Implementation.Main",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "LongestSubarrSum",
       "request": "launch",
       "mainClass": "SlidingWindow.LongestSubarrSum.java.LongestSubarrSum",
