@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestSubarrSum",
+      "request": "launch",
+      "mainClass": "SlidingWindow.LongestSubarrSum.java.LongestSubarrSum",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "MaxWindow",
       "request": "launch",
       "mainClass": "SlidingWindow.ConstantWindow.MaxWindow.java.MaxWindow",
