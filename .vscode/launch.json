@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaxPointCards",
+      "request": "launch",
+      "mainClass": "MaxPointCards",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Trees.BinaryTree.Implementation.Main",
