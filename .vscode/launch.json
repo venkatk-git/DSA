@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Trees.BinarySearchTree.Implementation.java.Main",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Trees.BinarySearchTree.Implementation.java.Test",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "MaxPointCards",
       "request": "launch",
       "mainClass": "MaxPointCards",
