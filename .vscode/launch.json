@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SearchInMatri",
+      "request": "launch",
+      "mainClass": "LeetCode.SearchInMatrix2.java.SearchInMatri",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "SearchInMatrix2",
+      "request": "launch",
+      "mainClass": "LeetCode.SearchInMatrix2.java.SearchInMatrix2",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "LargestRecArea",
       "request": "launch",
       "mainClass": "LeetCode.LargestRecArea.java.LargestRecArea",
