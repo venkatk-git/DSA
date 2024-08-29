@@ -1,6 +1,6 @@
 package  LeetCode.SearchInMatrix2.java;
 
-public class SearchInMatri {
+public class SearchInMatrix2 {
     public static void main(String[] args) {
         int[][] mat = { 
             {1, 4 ,7, 11, 16},

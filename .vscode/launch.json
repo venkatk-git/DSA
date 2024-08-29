@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaxConsOnes3",
+      "request": "launch",
+      "mainClass": "LeetCode.MaxConsOnes3.java.MaxConsOnes3",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "SearchInMatri",
       "request": "launch",
       "mainClass": "LeetCode.SearchInMatrix2.java.SearchInMatri",

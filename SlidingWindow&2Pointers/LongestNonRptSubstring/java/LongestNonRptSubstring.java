@@ -6,7 +6,7 @@ public class LongestNonRptSubstring {
         
         System.out.println(lengthOfLongestSubstring(s));
     }
-
+    
     /* Sliding Window Approach */
     public static int lengthOfLongestSubstring(String s) {
         int[] cache = new int[126];
