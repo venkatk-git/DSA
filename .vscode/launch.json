@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LargestRecArea",
+      "request": "launch",
+      "mainClass": "LeetCode.LargestRecArea.java.LargestRecArea",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Trees.BinarySearchTree.Implementation.java.Main",
