@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FruitBasket",
+      "request": "launch",
+      "mainClass": "FruitBasket",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "MakeABouquet",
+      "request": "launch",
+      "mainClass": "LeetCode.MakeABouquet.java.MakeABouquet",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "PeekElement",
       "request": "launch",
       "mainClass": "LeetCode.PeekElement.java.PeekElement",
