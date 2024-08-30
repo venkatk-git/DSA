@@ -16,29 +16,14 @@ public class PeekElement {
         if(n == 1)
             return 0;
 
-        while(l <= r){
+        while(l < r){
             m = (l + r) / 2;
-
-            if(m != 0 && m != n - 1){
-                if(nums[m - 1] < nums[m] && nums[m + 1] < nums[m])
-                    return m;
-                else if(nums[m] < nums[m + 1])
-                    l = m + 1;
-                else 
-                    r = m - 1;
-            } else if(m == 0){
-                if(nums[m + 1] < nums[m])
-                    return m;
-                else    
-                    l = m + 1;
-            } else{
-                if(nums[m - 1] < nums[m])
-                    return m;
-                else    
-                    r = m - 1;
-            }
+            if(nums[m] > nums[m + 1])
+                r = m;
+            else
+                l = m + 1;
         }
-
-        return 0;
+    
+        return l;
     }
 }
