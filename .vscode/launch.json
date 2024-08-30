@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "KokoBananas",
+      "request": "launch",
+      "mainClass": "LeetCode.KokoBananas.java.KokoBananas",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "MaxConsOnes3",
       "request": "launch",
       "mainClass": "LeetCode.MaxConsOnes3.java.MaxConsOnes3",
