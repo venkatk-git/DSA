@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TrappingRainWater",
+      "request": "launch",
+      "mainClass": "TrappingRainWater",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "SingleNumber",
+      "request": "launch",
+      "mainClass": "LeetCode.SingleNumber.java.SingleNumber",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "FruitBasket",
       "request": "launch",
       "mainClass": "FruitBasket",
