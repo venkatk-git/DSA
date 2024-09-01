@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SortColors",
+      "request": "launch",
+      "mainClass": "LeetCode.SortColors.java.SortColors",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "MoveZeros",
       "request": "launch",
       "mainClass": "LeetCode.MoveZeros.java.MoveZeros",
