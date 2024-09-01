@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MoveZeros",
+      "request": "launch",
+      "mainClass": "LeetCode.MoveZeros.java.MoveZeros",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Main",
