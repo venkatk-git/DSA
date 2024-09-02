@@ -1,6 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
-
+import java.util.*;
 public class SingleNumber{
     public static void main(String[] args) {
         int[] nums = {1,0,1};

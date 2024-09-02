@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NonOverlappingIntervals",
+      "request": "launch",
+      "mainClass": "Greedy.NonOverlappingIntervals.java.NonOverlappingIntervals",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "MaximumProfit",
+      "request": "launch",
+      "mainClass": "Greedy.MaximumProfit.java.MaximumProfit",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "MergeSort",
+      "request": "launch",
+      "mainClass": "LeetCode.MergeSort.java.MergeSort",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "ReversePairs",
+      "request": "launch",
+      "mainClass": "LeetCode.ReversePairs.java.ReversePairs",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "SortColors",
       "request": "launch",
       "mainClass": "LeetCode.SortColors.java.SortColors",
