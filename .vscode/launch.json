@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MergeIntervals",
+      "request": "launch",
+      "mainClass": "Greedy.MergeIntervals.java.MergeIntervals",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "NonOverlappingIntervals",
       "request": "launch",
       "mainClass": "Greedy.NonOverlappingIntervals.java.NonOverlappingIntervals",
