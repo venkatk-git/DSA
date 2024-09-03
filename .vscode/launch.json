@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HouseRobber",
+      "request": "launch",
+      "mainClass": "LeetCode.HouseRobber.java.HouseRobber",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "ClimbingStairs",
       "request": "launch",
       "mainClass": "LeetCode.ClimbingStairs.java.ClimbingStairs",
