@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ClimbingStairs",
+      "request": "launch",
+      "mainClass": "LeetCode.ClimbingStairs.java.ClimbingStairs",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "FibonacciNumber",
+      "request": "launch",
+      "mainClass": "LeetCode.FibonacciNumber.java.FibonacciNumber",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "FibonacciNumber",
+      "request": "launch",
+      "mainClass": "FibonacciNumber",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "LongestSubstringWithK",
       "request": "launch",
       "mainClass": "LongestSubstringWithK"
