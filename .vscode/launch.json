@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NumberOfSubstrings",
+      "request": "launch",
+      "mainClass": "NumberOfSubstrings",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "UniquePaths2",
       "request": "launch",
       "mainClass": "LeetCode.UniquePaths2.java.UniquePaths2",
