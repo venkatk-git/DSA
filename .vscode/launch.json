@@ -3,6 +3,26 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestSubstringWithK",
+      "request": "launch",
+      "mainClass": "LongestSubstringWithK"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubstringWithK",
+      "request": "launch",
+      "mainClass": "LongestSubstringWithK",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "JobSchedule",
+      "request": "launch",
+      "mainClass": "Greedy.JobSchedule.java.JobSchedule",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "MergeIntervals",
       "request": "launch",
       "mainClass": "Greedy.MergeIntervals.java.MergeIntervals",
