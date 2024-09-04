@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "OneEditDistance",
+      "request": "launch",
+      "mainClass": "LeetCode.OneEditDistance.java.OneEditDistance",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "LongestCommonSubseq",
+      "request": "launch",
+      "mainClass": "LeetCode.LongestCommonSubseq.java.LongestCommonSubseq",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "DungeonHP",
+      "request": "launch",
+      "mainClass": "DungeonHP",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "NumberOfSubstrings",
       "request": "launch",
       "mainClass": "NumberOfSubstrings",
