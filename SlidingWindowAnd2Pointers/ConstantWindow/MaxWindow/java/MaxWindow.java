@@ -1,4 +1,4 @@
-package SlidingWindow.ConstantWindow.MaxWindow.java;
+package SlidingWindowAnd2Pointers.ConstantWindow.MaxWindow.java;
 
 public class MaxWindow {
     public static void main(String[] args){

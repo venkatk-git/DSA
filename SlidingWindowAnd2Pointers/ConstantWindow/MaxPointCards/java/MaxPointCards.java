@@ -1,4 +1,4 @@
-
+package SlidingWindowAnd2Pointers.ConstantWindow.MaxPointCards.java;
 
 class MaxPointCards{
     public static void main(String[] args) {

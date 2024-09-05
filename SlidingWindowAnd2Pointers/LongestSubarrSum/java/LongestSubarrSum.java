@@ -1,5 +1,4 @@
-package SlidingWindow.LongestSubarrSum.java;
-
+package SlidingWindowAnd2Pointers.LongestSubarrSum.java;
 
 public class LongestSubarrSum {
     public static void main(String[] args) {

@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MidNode",
+      "request": "launch",
+      "mainClass": "LinkedList.MidNode.java.MidNode",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "LongestCharReplacement",
+      "request": "launch",
+      "mainClass": "SlidingWindowAnd2Pointers.LongestCharReplacement.java.LongestCharReplacement",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "OneEditDistance",
       "request": "launch",
       "mainClass": "LeetCode.OneEditDistance.java.OneEditDistance",

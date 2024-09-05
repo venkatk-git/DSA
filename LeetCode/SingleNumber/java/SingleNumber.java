@@ -1,3 +1,5 @@
+package LeetCode.SingleNumber.java;
+
 import java.util.*;
 
 public class SingleNumber{

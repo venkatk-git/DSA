@@ -1,3 +1,5 @@
+package LeetCode.DungeonHP.java;
+
 import java.util.Arrays;
 
 class DungeonHP {

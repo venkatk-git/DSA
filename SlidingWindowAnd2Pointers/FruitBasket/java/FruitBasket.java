@@ -1,3 +1,5 @@
+package SlidingWindowAnd2Pointers.FruitBasket.java;
+
 /*
  * 904. Fruit Into Baskets.
  * You are visiting a farm that has a single row of fruit trees arranged from left to right.
