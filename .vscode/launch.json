@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SubarrayKDistinctIntegers",
+      "request": "launch",
+      "mainClass": "SlidingWindowAnd2Pointers.SubarrayKDistinctIntegers.java.SubarrayKDistinctIntegers",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "SubarrayWithOddNum",
+      "request": "launch",
+      "mainClass": "SlidingWindowAnd2Pointers.SubarrayWithOddNum.java.SubarrayWithOddNum",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "MidNode",
       "request": "launch",
       "mainClass": "LinkedList.MidNode.java.MidNode",
