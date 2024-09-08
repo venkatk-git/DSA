@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ValidParanthesis",
+      "request": "launch",
+      "mainClass": "StacksAndQueues.Stack.ValidParanthesis.java.ValidParanthesis",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "MinWindowSubstring",
+      "request": "launch",
+      "mainClass": "SlidingWindowAnd2Pointers.MinWindowSubstring.java.MinWindowSubstring",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "SubarrayKDistinctIntegers",
       "request": "launch",
       "mainClass": "SlidingWindowAnd2Pointers.SubarrayKDistinctIntegers.java.SubarrayKDistinctIntegers",
