@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NGE",
+      "request": "launch",
+      "mainClass": "StacksAndQueues.Stack.NGE.java.NGE",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "ValidParanthesis",
       "request": "launch",
       "mainClass": "StacksAndQueues.Stack.ValidParanthesis.java.ValidParanthesis",
