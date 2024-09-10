@@ -13,9 +13,9 @@ public class NQueens {
         for (boolean[] row : board) {
             for(boolean elem : row){
                 if(elem)
-                    System.out.print("Q ");
+                    System.out.print("Q");
                 else 
-                    System.out.print("_ ");    
+                    System.out.print(".");    
             }
             System.out.println();
         }

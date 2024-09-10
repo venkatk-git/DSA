@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PSE",
+      "request": "launch",
+      "mainClass": "StacksAndQueues.Stack.PSE.java.PSE",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "NGE2",
+      "request": "launch",
+      "mainClass": "StacksAndQueues.Stack.NGE2.java.NGE2",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "BFS",
+      "request": "launch",
+      "mainClass": "Graphs.BFS.java.BFS",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "DFS",
+      "request": "launch",
+      "mainClass": "Graphs.DFS.java.DFS",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "NGE",
       "request": "launch",
       "mainClass": "StacksAndQueues.Stack.NGE.java.NGE",
