@@ -5,6 +5,13 @@
       "type": "java",
       "name": "HasPath",
       "request": "launch",
+      "mainClass": "HasPath",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "HasPath",
+      "request": "launch",
       "mainClass": "Graphs.HasPath.java.HasPath",
       "projectName": "DSA_175c1f96"
     },
