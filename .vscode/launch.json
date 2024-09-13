@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SumSubarraysMin",
+      "request": "launch",
+      "mainClass": "StacksAndQueues.Stack.SumSubarraysMin.java.SumSubarraysMin",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "HasPath",
       "request": "launch",
       "mainClass": "HasPath",
