@@ -1,10 +1,10 @@
 package StacksAndQueues.Stack.SumSubarraysMin.java;
 
-import java.util.*;
-
 /**
  * SumSubarraysMin
  */
+
+import java.util.*;
 public class SumSubarraysMin {
     static int MOD = (int)1e9 + 7;
     public static void main(String[] args) {
