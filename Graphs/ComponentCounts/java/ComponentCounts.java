@@ -8,13 +8,12 @@ import  java.util.*;
 public class ComponentCounts {
     public static void main(String[] args) {
         Map<Integer, List<Integer>> graph = Map.of(
-            0, List.of(8, 1, 5),
-            1, List.of(0),
-            5, List.of(0, 8),
-            8, List.of(0, 5),
-            2, List.of(3, 4),
-            3, List.of(2, 4),
-            4, List.of(3, 2)
+            0, List.of(1, 8, 7),
+            1, List.of(6, 8, 0),
+            8, List.of(1, 0, 5),
+            7, List.of(0),
+            5, List.of(8),
+            6, List.of(1)
           );
           
         System.out.println(connectedComponentsCount(graph));
