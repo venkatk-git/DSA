@@ -23,7 +23,7 @@ public class LargestComponent {
         Set<Integer> visited = new HashSet<>();
 
         for(Integer node : graph.keySet())
-            maxSize = Math.max(maxSize, dfs(graph, visited, node));
+            maxSize = Math.max(maxSize, dfsRec(graph, visited, node));
 
         System.out.println(maxSize);
     }
@@ -50,6 +50,20 @@ public class LargestComponent {
             }
         }
 
+        return size;
+    }
+    
+    public static int dfsRec(Map<Integer, List<Integer>> graph, Set<Integer> visited, Integer src){
+        if(visited.contains(src))
+            return 0;
+
+        int size = 1;
+        visited.add(src);
+
+        for(Integer neighbour : graph.get(src)){
+            size += dfsRec(graph, visited, neighbour);
+        }
+        
         return size;
     }
 }

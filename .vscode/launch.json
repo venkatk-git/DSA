@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AsteroidCollision",
+      "request": "launch",
+      "mainClass": "StacksAndQueues.Stack.AsteroidCollision.java.AsteroidCollision",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
+      "name": "FindSafe",
+      "request": "launch",
+      "mainClass": "LeetCode.FindSafe.java.FindSafe",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "LargestComponent",
       "request": "launch",
       "mainClass": "Graphs.LargestComponent.java.LargestComponent",
