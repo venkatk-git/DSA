@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LargeRectangleHistogram",
+      "request": "launch",
+      "mainClass": "StacksAndQueues.Stack.LargeRectangleHistogram.java.LargeRectangleHistogram",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "AsteroidCollision",
       "request": "launch",
       "mainClass": "StacksAndQueues.Stack.AsteroidCollision.java.AsteroidCollision",
