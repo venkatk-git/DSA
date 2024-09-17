@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaximalRectangle",
+      "request": "launch",
+      "mainClass": "StacksAndQueues.Stack.MaximalRectangle.java.MaximalRectangle",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "LargeRectangleHistogram",
       "request": "launch",
       "mainClass": "StacksAndQueues.Stack.LargeRectangleHistogram.java.LargeRectangleHistogram",
