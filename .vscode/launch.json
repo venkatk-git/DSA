@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ShortestPath",
+      "request": "launch",
+      "mainClass": "Graphs.ShortestPath.java.ShortestPath",
+      "projectName": "DSA_175c1f96"
+    },
+    {
+      "type": "java",
       "name": "MaximalRectangle",
       "request": "launch",
       "mainClass": "StacksAndQueues.Stack.MaximalRectangle.java.MaximalRectangle",
