@@ -37,8 +37,8 @@ public class MaximalRectangle {
         int n = row.length;
         int area = 0;
 
-        int[] nse = findNse2(row);
-        int[] pse = findPse2(row);
+        int[] nse = findNse(row);
+        int[] pse = findPse(row);
 
         for(int i = 0; i < n; i++)
             area = Math.max(area, (nse[i] - pse[i] - 1) * row[i]);
@@ -47,30 +47,6 @@ public class MaximalRectangle {
     }
 
     public static int[] findNse(int[] row){
-        int n = row.length;
-        int[] nse = new int[n];
-
-        int[] s = new int[n];
-        int top = -1;
-
-        Deque<Integer> stack = new ArrayDeque<>();
-
-        for(int i = n - 1; i >= 0; i--){
-            while(!stack.isEmpty() && row[i] <= row[stack.peek()])
-                stack.pop();
-
-            if(stack.isEmpty())
-                nse[i] = n;
-            else 
-                nse[i] = stack.peek();
-            
-            stack.push(i);
-        }
-
-        return nse;
-    }
-
-    public static int[] findNse2(int[] row){
         int n = row.length;
         int[] nse = new int[n];
 
@@ -92,7 +68,7 @@ public class MaximalRectangle {
         return nse;
     }
 
-    public static int[] findPse2(int[] row){
+    public static int[] findPse(int[] row){
         int n = row.length;
         int[] pse = new int[n];
 
@@ -114,25 +90,4 @@ public class MaximalRectangle {
         return pse;
     }
 
-    public static int[] findPse(int[] row){
-        int n = row.length;
-        int[] pse = new int[n];
-
-        Deque<Integer> stack = new ArrayDeque<>();
-
-        for(int i = 0; i < n; i++){
-            while(!stack.isEmpty() && row[i] <= row[stack.peek()])
-                stack.pop();
-
-            if(stack.isEmpty())
-                pse[i] = -1;
-            else 
-                pse[i] = stack.peek();
-            
-            stack.push(i);
-        }
-
-        return pse;
-    }
-    
 }
