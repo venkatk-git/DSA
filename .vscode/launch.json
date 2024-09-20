@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SlidingWindowMaximum",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.SlidingWindowMaximum.java.SlidingWindowMaximum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "MaxAreaIsland",
             "request": "launch",
             "mainClass": "Graphs.MaxAreaIsland.java.MaxAreaIsland",
