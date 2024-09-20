@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxAreaIsland",
+            "request": "launch",
+            "mainClass": "Graphs.MaxAreaIsland.java.MaxAreaIsland",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MinimumIsland",
+            "request": "launch",
+            "mainClass": "Graphs.MinimumIsland.java.MinimumIsland",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "IslandCount",
             "request": "launch",
             "mainClass": "Graphs.IslandCount.java.IslandCount",

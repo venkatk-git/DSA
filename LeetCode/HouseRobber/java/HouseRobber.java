@@ -8,7 +8,7 @@ public class HouseRobber {
         System.out.println(rob(nums1));
         
         int[] nums2 = {2, 1, 1, 2};
-        System.out.println(rob(nums2));
+        System.out.println(rob(nums2, 0, new HashMap<>()));
     }
 
     /* DP Memoization Apprach */
