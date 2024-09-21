@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UseLRUCache",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.LRUCache.java.UseLRUCache",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "SlidingWindowMaximum",
             "request": "launch",
             "mainClass": "StacksAndQueues.Stack.SlidingWindowMaximum.java.SlidingWindowMaximum",
