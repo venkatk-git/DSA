@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClelebrityProblem",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.ClebrityProblem.java.ClelebrityProblem",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "UseLRUCache",
             "request": "launch",
             "mainClass": "StacksAndQueues.Stack.LRUCache.java.UseLRUCache",
