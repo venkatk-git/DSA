@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FractionalKnapsack",
+            "request": "launch",
+            "mainClass": "Greedy.FractionalKnapsack.java.FractionalKnapsack",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "AssignCookies",
             "request": "launch",
             "mainClass": "Greedy.AssignCookies.java.AssignCookies",
