@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AssignCookies",
+            "request": "launch",
+            "mainClass": "Greedy.AssignCookies.java.AssignCookies",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "StacksAndQueues.Stack.LFUCache.java.Main",
