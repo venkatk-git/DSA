@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ParenthesisWithStars",
+            "request": "launch",
+            "mainClass": "Greedy.ParenthesisWithStars.java.ParenthesisWithStars",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "CoinChange",
             "request": "launch",
             "mainClass": "Greedy.CoinChange.java.CoinChange",
