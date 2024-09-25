@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ScheduleMeeting",
+            "request": "launch",
+            "mainClass": "Greedy.ScheduleMeeting.java.ScheduleMeeting",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "ParenthesisWithStars",
             "request": "launch",
             "mainClass": "Greedy.ParenthesisWithStars.java.ParenthesisWithStars",
