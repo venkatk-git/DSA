@@ -38,12 +38,22 @@ public class RottenOranges {
 
         ArrayDeque<Orange> q = new ArrayDeque<>();
         
+        boolean flag = true;
+
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
+                if(grid[i][j] != 0){
+                    flag = false;
+                }
+
                 if(grid[i][j] == 2){
                     q.offer(new Orange(i, j));
                 }
             }
+        }
+
+        if(flag){
+            return 0;
         }
 
         if(q.isEmpty()){
