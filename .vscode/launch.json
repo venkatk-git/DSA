@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumPlatforms",
+            "request": "launch",
+            "mainClass": "Graphs.MinimumPlatforms.java.MinimumPlatforms",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "RottenOranges",
             "request": "launch",
             "mainClass": "Graphs.RottenOranges.java.RottenOranges",
