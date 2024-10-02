@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JobSequence",
+            "request": "launch",
+            "mainClass": "Greedy.JobSequence.java.JobSequence",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "MinimumPlatforms",
             "request": "launch",
             "mainClass": "Graphs.MinimumPlatforms.java.MinimumPlatforms",
