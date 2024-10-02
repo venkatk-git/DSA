@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SJF",
+            "request": "launch",
+            "mainClass": "Greedy.ShortestJobFirst.java.SJF",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "Candy",
             "request": "launch",
             "mainClass": "Greedy.Candy.java.Candy",
