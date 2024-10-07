@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberOfProvinces",
+            "request": "launch",
+            "mainClass": "Graphs.NumberOfProvinces.java.NumberOfProvinces",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "InsertInterval",
             "request": "launch",
             "mainClass": "Greedy.InsertInterval.java.InsertInterval",
