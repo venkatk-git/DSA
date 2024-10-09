@@ -7,11 +7,11 @@ class Solution {
             return image;
         }
 
-        bfs(image, sr, sc, color, image[sr][sc]);
+        dfs(image, sr, sc, color, image[sr][sc]);
         return image;
     }
 
-    public void bfs(int[][] image, int i, int j, int color, int ogColor){
+    public void dfs(int[][] image, int i, int j, int color, int ogColor){
         boolean rowInBound = i >= 0 && i < image.length;
         boolean colInBound = j >= 0 && j < image[0].length;
 
@@ -25,10 +25,10 @@ class Solution {
 
         image[i][j] = color;
 
-        bfs(image, i + 1, j, color, ogColor);
-        bfs(image, i - 1, j, color, ogColor);
-        bfs(image, i, j + 1, color, ogColor);
-        bfs(image, i, j - 1, color, ogColor);
+        dfs(image, i + 1, j, color, ogColor);
+        dfs(image, i - 1, j, color, ogColor);
+        dfs(image, i, j + 1, color, ogColor);
+        dfs(image, i, j - 1, color, ogColor);
     }
 }
 
