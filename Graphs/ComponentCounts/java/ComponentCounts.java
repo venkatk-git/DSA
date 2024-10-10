@@ -1,9 +1,32 @@
 package Graphs.ComponentCounts.java;
 
-/**
- * ComponentCounts
- */
 import  java.util.*;
+
+class Solution {
+    public int numProvinces(List<List<Integer>> adj, int v){
+        int count = 0;
+        boolean[] visited = new boolean[v];
+        Arrays.fill(visited, false);
+        
+        for(int i = 0; i < v; i++){
+            if(!visited[i]){
+                dfs(adj, visited, i);
+                count += 1;
+            }
+        }
+
+        return count;
+    }
+
+    public void dfs(List<List<Integer>> adj, boolean[] visited, int i){
+        for(int j = 0; j < adj.size(); j++){
+            if(i != j && adj.get(i).get(j) == 1 && !visited[j]){
+                visited[j] = true;
+                dfs(adj, visited, j);
+            }
+        }
+    }
+}
 
 public class ComponentCounts {
     public static void main(String[] args) {
@@ -15,8 +38,15 @@ public class ComponentCounts {
             5, List.of(8),
             6, List.of(1)
           );
-          
-        System.out.println(connectedComponentsCount(graph));
+         
+        List<List<Integer>> adj = List.of(
+            List.of(1, 0, 1),
+            List.of(0, 1, 0),
+            List.of(1, 0, 1)
+        );
+
+        Solution solution = new Solution();  
+        System.out.println(solution.numProvinces(adj, 3));
     }
 
     /** Brute Force Approach By Iterating Through Every Single Entry of the Map 
