@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DFS",
+            "request": "launch",
+            "mainClass": "DFS",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "DetectCycle",
             "request": "launch",
             "mainClass": "DetectCycle",
