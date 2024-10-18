@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberOfEnclaves",
+            "request": "launch",
+            "mainClass": "NumberOfEnclaves",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "SurrondedRegions",
             "request": "launch",
             "mainClass": "SurrondedRegions",
