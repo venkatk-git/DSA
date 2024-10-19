@@ -5,7 +5,7 @@ class Solution {
         int ones = 0;
 
         int i = 0;
-        int j = 0;
+        int j;
         for(j = 0; j < m; j++) {
             if(grid[i][j] == 1) {
                 dfs(grid, i, j);

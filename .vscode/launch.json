@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WordLadder",
+            "request": "launch",
+            "mainClass": "WordLadder",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "NumberOfEnclaves",
             "request": "launch",
             "mainClass": "NumberOfEnclaves",
