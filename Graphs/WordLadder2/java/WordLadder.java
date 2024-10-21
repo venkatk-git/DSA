@@ -15,13 +15,16 @@ class Node {
         visited = false;
     }
 
+    @Override
     public String toString() {
         return word;
     }
 }
 
 class Solution {
-    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+    List<List<String>> resList = new ArrayList<>();
+
+    public List<List<String>> ladderLength(String beginWord, String endWord, List<String> wordList) {
         boolean present = false;
         
         for(String word : wordList) {
@@ -31,23 +34,62 @@ class Solution {
         }
 
         if(!present) {
-            return 0;
+            return null;
         }
         
         int seq = Integer.MAX_VALUE;
         Map<Node, ArrayList<Node>> graph = buildGraph(wordList, endWord);
-        System.out.println(graph);
+
         for(Node wordNode : graph.keySet()) {
             String word = wordNode.word;
             if(isValidWord(beginWord, word)) {
-                seq = Math.min(seq, wordNode.seq + 1);
+                seq = Math.min(seq, wordNode.seq);
             }
         }
 
-        return seq;
+        for(Node wordNode : graph.keySet()) {
+            String word = wordNode.word;
+            if(isValidWord(beginWord, word)) {
+                List<String> list = new ArrayList<>();
+                list.add(beginWord);
+                dfs(graph, wordNode, null, endWord, seq, list);
+            }
+        }
+
+        return resList;
     }
 
-    
+    public void dfs(Map<Node, ArrayList<Node>> graph, Node src, Node parent, String endWord, int seq, List<String> list) {
+        String word = src.word;
+        list.add(word);
+        if(seq == 1) {
+            if(word.equals(endWord)) {
+                if(resList.isEmpty()) {
+                    resList.add(new ArrayList<>(list));
+                } else if(resList.getLast().size() >= list.size()) {
+                  
+                    if(resList.getLast().size() > list.size()) {
+                        resList.removeLast();
+                    }
+                  
+                    resList.add(new ArrayList<>(list));
+                } 
+            }
+
+            list.removeLast();
+            return;
+        }
+        
+        for(Node neighbour : graph.get(src)) {
+            if(neighbour != parent) {
+                dfs(graph, neighbour, src, endWord, seq - 1, list);
+            }
+        }
+
+        list.removeLast();
+    }
+
+   
     public Map<Node, ArrayList<Node>> buildGraph(List<String> wordList, String endWord) {
         Map<Node, ArrayList<Node>> graph = new HashMap<>();
         Map<String, Node> visited = new HashMap<>();
@@ -104,11 +146,10 @@ class Solution {
 
 public class WordLadder {
     public static void main(String[] args) {
-        List<String> wordList = List.of("hot", "dot", "dog", "lot", "log", "cog"); 
+        List<String> wordList = List.of("hot","dot","dog","lot","log","cog"); 
         String beginWord = "hit";
         String endWord = "cog";
 
         System.out.println(new Solution().ladderLength(beginWord, endWord, wordList));
-        // System.out.println(new Solution().isValidWord("hot", "cat"));
     }
 }
