@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberOfIsland",
+            "request": "launch",
+            "mainClass": "Graphs.NumberOfIsland.java.NumberOfIsland",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "WordLadder",
             "request": "launch",
             "mainClass": "WordLadder",
