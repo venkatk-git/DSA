@@ -1,3 +1,5 @@
+package Graphs.WordLadder2.java
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.HashMap;
