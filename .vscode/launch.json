@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RansomNote",
+            "request": "launch",
+            "mainClass": "HashMap.RansomNote.java.RansomNote",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "LargestBST",
             "request": "launch",
             "mainClass": "Trees.LargestBST.java.LargestBST",
