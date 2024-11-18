@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TopoSort",
+            "request": "launch",
+            "mainClass": "Graphs.TopologicalSort.TopoSort.TopoSort",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "LeetCode.RandomizedSet.java.Main",
