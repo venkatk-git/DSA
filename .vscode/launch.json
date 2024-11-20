@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CycleDetection",
+            "request": "launch",
+            "mainClass": "Graphs.TopologicalSort.CycleDetection.CycleDetection",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "TopoSort",
             "request": "launch",
             "mainClass": "Graphs.TopologicalSort.TopoSort.TopoSort",
