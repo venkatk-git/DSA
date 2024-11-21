@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Graphs.ShortestPathAlgorithms.Prims.Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "MedianOfTwoArrays",
             "request": "launch",
             "mainClass": "BinarySearch.MedianOfTwoArrays.java.MedianOfTwoArrays",
