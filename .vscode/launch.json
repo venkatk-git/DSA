@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumPathSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.MinimumPathSum.java.MinimumPathSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "CycleDetection",
             "request": "launch",
             "mainClass": "Graphs.TopologicalSort.CycleDetection.CycleDetection",
