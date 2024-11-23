@@ -1,3 +1,5 @@
+package Trees.DFS;
+
 import java.util.Stack;
 
 class Node {
