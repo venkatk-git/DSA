@@ -45,31 +45,23 @@ class Solution {
             }
         }
 
-        return order.length == numCourses ? order : new int[]{};
+        return index == numCourses ? reverse(order) : new int[]{};
     }
+   
+    private int[] reverse(int[] nums) {
+        int n = nums.length;    
+        int l = 0;
+        int r = n - 1;
 
-    int i = 0;
-
-    public boolean dfs(ArrayList<ArrayList<Integer>> graph, int src, int[] visited, int[] order) {
-        if(visited[src] == 1) {
-            return false;
+        while(l <= r) {
+            int temp = nums[l];
+            nums[l] = nums[r];
+            nums[r] = temp;
+            l++;
+            r--;
         }
 
-        if(visited[src] == 2) {
-            return true;
-        }
-
-        visited[src] = 1;
-
-        for(int course: graph.get(src)) {
-            if(!dfs(graph, course, visited, order)) {
-                return false;
-            }
-        }
-
-        order[i++] = src;
-        visited[src] = 2;
-        return true;
+        return nums;
     }
 }
 
