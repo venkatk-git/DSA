@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CourseSchedule2",
+            "request": "launch",
+            "mainClass": "Graphs.TopologicalSort.CourseSchedule2.java.CourseSchedule2",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "CourseSchedule1",
             "request": "launch",
             "mainClass": "Graphs.TopologicalSort.CourseSchedule1.java.CourseSchedule1",
