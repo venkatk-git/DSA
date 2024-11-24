@@ -5,6 +5,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Trees.IterativeDFS.java.Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Trie.SegmentTree.java.Main",
             "projectName": "DSA_175c1f96"
         },

@@ -92,8 +92,6 @@ class Main {
         int[] nums = {5, 3, 7, 1, 4, 2};
         SegmentTree segmentTree = new SegmentTree();
         Node root = segmentTree.buildSegmentTree(nums, 0, nums.length - 1);
-        // segmentTree.printSegmentTree(root);
-        // System.out.println(root.start);
         System.out.println(segmentTree.query(root, 2, 4));
     }
 }
