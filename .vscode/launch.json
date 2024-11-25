@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NinjaTraining",
+            "request": "launch",
+            "mainClass": "NinjaTraining",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Trees.IterativeDFS.java.Main",
