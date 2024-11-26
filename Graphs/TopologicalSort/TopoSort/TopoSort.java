@@ -14,7 +14,7 @@ public class TopoSort {
             Map.entry(2, List.of(3)),
             Map.entry(3, List.of(1)),
             Map.entry(4, List.of(0, 1)),
-            Map.entry(5, List.of(0, 2, 4))
+            Map.entry(5, List.of(0, 4))
         );
 
         List<Integer> topoSortedList = topoSort(graph, 5);
@@ -23,29 +23,31 @@ public class TopoSort {
     }   
     
     private static List<Integer> topoSort(Map<Integer, List<Integer>> graph, int src) {
-        List<Integer> topoSortedList = new ArrayList<>();
-
         Set<Integer> visited = new HashSet<>();
+        List<Integer> topoSort = new ArrayList<>();
 
-        dfs(graph, src, visited, topoSortedList);
-
-        return topoSortedList.reversed();
-    }
-
-    private static void dfs(Map<Integer, List<Integer>> graph, int v, Set<Integer> visited, List<Integer> topoSortedList) {
-        visited.add(v);
-
-        if(graph.get(v).isEmpty()) {
-            topoSortedList.add(v);
-            return;
-        }
-
-        for(int vertex: graph.get(v)) {
-            if(!visited.contains(vertex)) {
-                dfs(graph, vertex, visited, topoSortedList);
+        for(int node: graph.keySet()) {
+            if(!visited.contains(node)) {
+                dfs(graph, node, visited, topoSort);
             }
         }
 
-        topoSortedList.add(v);
+        return topoSort;
+    }
+
+    private static void dfs(Map<Integer, List<Integer>> graph, int src, Set<Integer> visited, List<Integer> topoSort) {
+        if(visited.contains(src)) {
+            return;
+        }
+        
+        visited.add(src);
+
+        for(int node: graph.get(src)) {
+            if(!visited.contains(node)) {
+                dfs(graph, node, visited, topoSort);
+            }
+        }
+
+        topoSort.add(src);
     }
 }
