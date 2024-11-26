@@ -32,19 +32,18 @@ public class TopoSort {
         for(int i = 0; i < graph.size(); i++) {
             if(indegree[i] == 0) {
                 q.offer(i);
-                topoSort.add(i);
             }
 
         }
 
         while(!q.isEmpty()) {
             int curr = q.poll(); 
+            topoSort.add(curr);
 
             for(int v: graph.get(curr)) {
                 indegree[v] -= 1;
                 if(indegree[v] == 0) {
                     q.offer(v);
-                    topoSort.add(v);
                 }
             }
         }
