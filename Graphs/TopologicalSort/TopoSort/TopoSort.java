@@ -1,10 +1,10 @@
 package Graphs.TopologicalSort.TopoSort;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class TopoSort {
     public static void main(String[] args) {
@@ -14,40 +14,42 @@ public class TopoSort {
             Map.entry(2, List.of(3)),
             Map.entry(3, List.of(1)),
             Map.entry(4, List.of(0, 1)),
-            Map.entry(5, List.of(0, 4))
+            Map.entry(5, List.of(0, 2))
         );
 
-        List<Integer> topoSortedList = topoSort(graph, 5);
-
-        System.out.println(topoSortedList);
-    }   
-    
-    private static List<Integer> topoSort(Map<Integer, List<Integer>> graph, int src) {
-        Set<Integer> visited = new HashSet<>();
         List<Integer> topoSort = new ArrayList<>();
 
-        for(int node: graph.keySet()) {
-            if(!visited.contains(node)) {
-                dfs(graph, node, visited, topoSort);
+        int[] indegree = new int[graph.size()];
+        Arrays.fill(indegree, 0);
+
+        for(int i = 0; i < graph.size(); i++) {
+            for(int v: graph.get(i)) {
+                indegree[v] += 1;
             }
         }
 
-        return topoSort;
-    }
+        ArrayDeque<Integer> q = new ArrayDeque<>();
+        for(int i = 0; i < graph.size(); i++) {
+            if(indegree[i] == 0) {
+                q.offer(i);
+                topoSort.add(i);
+            }
 
-    private static void dfs(Map<Integer, List<Integer>> graph, int src, Set<Integer> visited, List<Integer> topoSort) {
-        if(visited.contains(src)) {
-            return;
         }
-        
-        visited.add(src);
 
-        for(int node: graph.get(src)) {
-            if(!visited.contains(node)) {
-                dfs(graph, node, visited, topoSort);
+        while(!q.isEmpty()) {
+            int curr = q.poll(); 
+
+            for(int v: graph.get(curr)) {
+                indegree[v] -= 1;
+                if(indegree[v] == 0) {
+                    q.offer(v);
+                    topoSort.add(v);
+                }
             }
         }
 
-        topoSort.add(src);
-    }
+        System.out.println(topoSort);
+    }   
+    
 }
