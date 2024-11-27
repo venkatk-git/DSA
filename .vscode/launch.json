@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.Triangle.Triangle",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "Graphs.General.Triangle.Triangle",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LengthOfLIS",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.LengthOfLIS.LengthOfLIS",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "NinjaTraining",
             "request": "launch",
             "mainClass": "NinjaTraining",
