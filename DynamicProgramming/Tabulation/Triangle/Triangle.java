@@ -24,6 +24,32 @@ class Solution {
 
         return dp[0][0];
     }
+
+    /** Tabulation Space Optimized
+    ** public int minimumTotal(List<List<Integer>> triangle) {
+    **    int n = triangle.size();
+    **    int m = triangle.getLast().size();
+    **
+    **    int[] prev = new int[m];
+    **    int[] curr = new int[m];
+    **    
+    **  for(int i = 0; i < m; i++) {
+    **      prev[i] = triangle.get(n - 1).get(i);
+    **  }
+
+    **  for(int i = n - 2; i >= 0; i--) {
+    **      for(int j = 0; j <= i; j++) {
+    **          int onePlus = prev[j];
+    **          int twoPlus = prev[j + 1];
+    **          curr[j] = triangle.get(i).get(j) + Math.min(onePlus, twoPlus);
+    **      }
+    **
+    **      prev = curr;
+    **  }
+    **
+    **  return prev[0];
+    ** }
+    **/
 }
 
 public class Triangle {
