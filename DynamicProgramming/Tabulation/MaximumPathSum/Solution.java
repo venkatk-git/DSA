@@ -28,6 +28,37 @@ public class Solution {
         
         return max;
     }
+
+    // Space Optimized
+    public static int _getMaxPathSum(int[][] matrix) {
+        int n = matrix.length;
+        int m = matrix[0].length;
+        
+        int[] prevRow = new int[m];
+        System.arraycopy(matrix[n - 1], 0, prevRow, 0, m);
+
+        for(int i = n - 2; i >= 0 ; i--) {
+            int[] currRow = new int[m];
+            for(int j = 0; j < m; j++) {
+                int leftDiagonal = Integer.MIN_VALUE;
+                int down = prevRow[j];
+                int rightDiagonal = Integer.MIN_VALUE;
+                
+                if(j - 1 >= 0) leftDiagonal = prevRow[j - 1];
+                if(j + 1 < m) rightDiagonal = prevRow[j + 1];
+                
+                currRow[j] = matrix[i][j] + Math.max(Math.max(leftDiagonal, down), rightDiagonal);
+            }
+            prevRow = currRow;
+        }
+
+        int max = Integer.MIN_VALUE;
+        for(int val: prevRow) {
+            max = Math.max(max, val);
+        }
+        
+        return max;
+    }
 }
 
 class MaximumPathSum {
@@ -40,7 +71,7 @@ class MaximumPathSum {
             {-99, -98, -97, -96, -95}
         };
 
-        System.out.println(new Solution().getMaxPathSum(matrix));
+        System.out.println(new Solution()._getMaxPathSum(matrix));
     }
     
 }
