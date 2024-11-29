@@ -5,6 +5,13 @@
             "type": "java",
             "name": "MaximumPathSum",
             "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.MaximumPathSum.MaximumPathSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaximumPathSum",
+            "request": "launch",
             "mainClass": "DynamicProgramming.Memoization.MaximumPathSum.MaximumPathSum",
             "projectName": "DSA_175c1f96"
         },
