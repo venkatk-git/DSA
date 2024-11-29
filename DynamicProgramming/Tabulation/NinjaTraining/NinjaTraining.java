@@ -1,4 +1,4 @@
-package DynamicProgramming.Tabulation.NinjaTraining.java;
+package DynamicProgramming.Tabulation.NinjaTraining;
 
 class Solution {
     public static int ninjaTraining(int n, int points[][]) {
