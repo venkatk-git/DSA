@@ -5,6 +5,13 @@
             "type": "java",
             "name": "MaxProfit",
             "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.BTS_IV.MaxProfit",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaxProfit",
+            "request": "launch",
             "mainClass": "DynamicProgramming.Memoization.BTS_IV.MaxProfit",
             "projectName": "DSA_175c1f96"
         },
