@@ -1,5 +1,7 @@
 package DynamicProgramming.Tabulation.BTS_IV;
 
+import java.util.Arrays;
+
 class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
@@ -18,9 +20,15 @@ class Solution {
                 dp[t][1][i] = Math.max(buyToday, dontBuyToday);
                 
                 // Sell
-                int sellToday = prices[i] + dp[t][1][i + 1];
+                int sellToday = prices[i] + dp[t - 1][1][i + 1];
                 int dontSellToday = dp[t][0][i + 1];
                 dp[t][0][i] = Math.max(sellToday, dontSellToday);
+            }
+        }
+
+        for(int[][] a: dp) {
+            for(int[] b: a) {
+                System.out.println(Arrays.toString(b));
             }
         }
 

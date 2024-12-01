@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddBinary",
+            "request": "launch",
+            "mainClass": "Bit.AddBinary.AddBinary",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "MaxProfit",
             "request": "launch",
             "mainClass": "DynamicProgramming.Tabulation.BTS_IV.MaxProfit",
