@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ChocolatePickup",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.ChocolatePickup.ChocolatePickup",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ChocolatePickup",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.ChocolatePickup.ChocolatePickup",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "AddBinary",
             "request": "launch",
             "mainClass": "Bit.AddBinary.AddBinary",

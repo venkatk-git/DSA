@@ -1,19 +1,32 @@
 package DynamicProgramming.Memoization.ChocolatePickup;
 
+import java.util.Arrays;
+
 class Solution {
 	static int[] paths = {-1, 0, 1};
 
 	public int maximumChocolates(int r, int c, int[][] grid) {
-		int[][][] dp = new int[3][r][c];
-		return maximumChocolates(0, 0, grid[0].length - 1, grid);
+		int[][][] dp = new int[r][c][c];
+
+		for(int[][] a: dp) {
+			for(int[] b: a) {
+				Arrays.fill(b, -1);
+			}
+		}
+
+		return maximumChocolates(0, 0, grid[0].length - 1, grid, dp);
 	}
 
-	private int maximumChocolates(int i, int aj, int bj, int[][] grid) {
+	private int maximumChocolates(int i, int aj, int bj, int[][] grid, int[][][] dp) {
 		boolean isAlexInBound = aj >= 0 && aj < grid[0].length;
 		boolean isBobInBound = bj >= 0 && bj < grid[0].length;
 
 		if(i == grid.length || !isAlexInBound || !isBobInBound) {
 			return 0;
+		}
+		
+		if(dp[i][aj][bj] != -1) {
+			return dp[i][aj][bj];
 		}
 
 		int alex = grid[i][aj];
@@ -27,9 +40,11 @@ class Solution {
 
 		for(int ac = 0; ac < 3; ac++) {
 			for(int bc = 0; bc < 3; bc++) {
-				maxChocolates = Math.max(maxChocolates, maximumChocolates(i + 1, aj + paths[ac], bj + paths[bc], grid));
+				maxChocolates = Math.max(maxChocolates, maximumChocolates(i + 1, aj + paths[ac], bj + paths[bc], grid, dp));
 			}
 		}
+
+		dp[i][aj][bj] = alex + bob + maxChocolates;
 
 		return alex + bob + maxChocolates;
 	}
