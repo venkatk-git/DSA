@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AvgOfLevels",
+            "request": "launch",
+            "mainClass": "Trees.AvgOfLevels.AvgOfLevels",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "ChocolatePickup",
             "request": "launch",
             "mainClass": "DynamicProgramming.Tabulation.ChocolatePickup.ChocolatePickup",
