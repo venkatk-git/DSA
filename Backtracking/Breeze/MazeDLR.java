@@ -1,4 +1,4 @@
-package Backtracking.MazeDLR.java;
+package Backtracking.Breeze;
 
 import java.util.Arrays;
 

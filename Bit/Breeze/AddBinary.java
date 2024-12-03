@@ -1,4 +1,4 @@
-package Bit.AddBinary;
+package Bit.Breeze;
 
 
 class Solution {

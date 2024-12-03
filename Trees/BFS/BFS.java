@@ -16,6 +16,11 @@ class TreeNode {
         this.left = left;
         this.right = right;
     }
+
+    @Override
+    public String toString() {
+            return val + "";
+    }
 }
 
 class Solution {
@@ -26,11 +31,13 @@ class Solution {
         q.offer(root);
 
         while(!q.isEmpty()) {
+            System.out.println(q);
             int size = q.size();
             
             for(int i = 0; i < size; i++) {
                 TreeNode currNode = q.poll();    
                 bfs.add(currNode.val);
+                
                 
                 if(currNode.left != null) {
                     q.offer(currNode.left);

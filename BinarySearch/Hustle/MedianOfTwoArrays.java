@@ -1,6 +1,6 @@
-package BinarySearch.MedianOfTwoArrays.java;
+package BinarySearch.Hustle;
 
-public class Solution {
+class Solution {
     public double findMedianSortedArrays(int[] a, int[] b) {
         int n1 = a.length;
         int n2 = b.length;
@@ -40,4 +40,13 @@ public class Solution {
 
         return 0;   
     }
+}
+
+public class MedianOfTwoArrays {
+    public static void main(String[] args) {
+        int[] nums1 = {1, 3, 4, 7, 10, 12};
+        int[] nums2 = {2, 3, 6, 15};
+
+        System.out.println(new Solution().findMedianSortedArrays(nums1, nums2));
+    }    
 }

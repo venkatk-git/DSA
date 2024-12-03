@@ -1,4 +1,4 @@
-package Backtracking.CombinationSum.java;
+package Backtracking.Hustle;
 
 import java.util.*;
 

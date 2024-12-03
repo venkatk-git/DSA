@@ -1,12 +1,12 @@
-package Backtracking.NQueens.java;
+package Backtracking.Blaze;
 
 public class NQueens {
     public static void main(String[] args) {
         boolean[][] board = new boolean[4][4];
 
         int count = queens(board, 0);
-        System.out.println(count);
 
+        System.out.println(count);
     }
 
     private static void display(boolean[][] board){
@@ -23,9 +23,11 @@ public class NQueens {
     }
 
     private static boolean isSafe(boolean[][] board, int r, int c){
-        for(int i = 0; i < board.length; i++)
-            if(board[i][c])
+        for (boolean[] board1 : board) {
+            if (board1[c]) {
                 return false;
+            }
+        }
 
         for(int i = 1; i <= Math.min(r, c); i++)
              if(board[r - i][c - i])
