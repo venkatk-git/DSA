@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Zigzag",
+            "request": "launch",
+            "mainClass": "Trees.Zigzag",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "LevelOrderSuccessor",
             "request": "launch",
             "mainClass": "Trees.LevelOrderSuccessor",
