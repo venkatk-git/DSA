@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BestSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Blaze.BestSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Rightside",
+            "request": "launch",
+            "mainClass": "Trees.Rightside",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "Zigzag",
             "request": "launch",
             "mainClass": "Trees.Zigzag",
