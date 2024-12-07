@@ -1,4 +1,4 @@
-package Trees.BFS;
+package Trees;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -53,7 +53,7 @@ class Solution {
     }
 }
 
-public class BFS {
+public class LevelOrderTraversal {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);

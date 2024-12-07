@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LevelOrderTraversal2",
+            "request": "launch",
+            "mainClass": "Trees.LevelOrderTraversal2",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "BestSum",
             "request": "launch",
             "mainClass": "DynamicProgramming.Blaze.BestSum",
