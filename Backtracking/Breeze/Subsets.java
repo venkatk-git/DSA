@@ -21,7 +21,10 @@ public class Subsets {
 
         innerList.add(nums[i]);
         subSets(nums, i + 1, innerList);
+        
+        // Cleanup
         innerList.removeLast();
+        
         subSets(nums, i + 1, innerList);
     }
 }

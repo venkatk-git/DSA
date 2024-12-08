@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Combinations",
+            "request": "launch",
+            "mainClass": "Backtracking.Breeze.Combinations",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "Subsets",
             "request": "launch",
             "mainClass": "Backtracking.Breeze.Subsets",
