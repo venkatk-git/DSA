@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Subsets",
+            "request": "launch",
+            "mainClass": "Backtracking.Breeze.Subsets",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "LevelOrderTraversal2",
             "request": "launch",
             "mainClass": "Trees.LevelOrderTraversal2",

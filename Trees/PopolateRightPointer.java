@@ -1,8 +1,5 @@
 package Trees;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-
 class Node {
     public int val;
     public Node left;
@@ -25,24 +22,26 @@ class Node {
 
 public class PopolateRightPointer {
     public Node connect(Node root) {
-        Deque<Node> deque = new ArrayDeque<>();
-        deque.offer(root);
-
-        while(!deque.isEmpty()) {
-            int size = deque.size();
-            Node prev = null;
-            
-            for(int i = 0; i < size; i++) {
-                Node curr = deque.poll();
-                
-                if(curr.right != null) deque.offer(curr.right);
-                if(curr.left != null) deque.offer(curr.left);
-
-                curr.next = prev;
-                prev = curr;
-            }
+        if (root == null) {
+            return root;
         }
 
+        Node curr = root;
+        Node next = curr.left;
+
+        while(next != null) {
+            curr.left.next = curr.right;
+
+            if (curr.next != null) {
+                curr.right.next = curr.next.left;
+                curr = curr.next;   
+            } else {
+                curr = next;
+                next = curr != null ? curr.left : null;
+            }
+
+        }
+        
         return root;
     }
 }
