@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Cousins",
+            "request": "launch",
+            "mainClass": "Trees.Cousins",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "Combinations",
             "request": "launch",
             "mainClass": "Backtracking.Breeze.Combinations",
