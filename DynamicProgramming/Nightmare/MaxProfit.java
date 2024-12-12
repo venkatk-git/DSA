@@ -2,8 +2,14 @@ package DynamicProgramming.Nightmare;
 
 import java.util.Arrays;
 
-class Solution {
-    public int maxProfit(int[] prices) {
+public class MaxProfit {
+    public static void main(String[] args) {
+        int[] prices = {1,2,3,4,5};
+
+        System.out.println(maxProfit(prices));
+    }    
+ 
+    public static int maxProfit(int[] prices) {
         int n = prices.length;
         int[][][] dp = new int[2][2][n];
 
@@ -16,7 +22,7 @@ class Solution {
         return maxProfit(prices, 1, 0, 0, dp);
     }
     
-    private int maxProfit(int[] prices, int buy, int i, int transactions, int[][][] dp) {
+    private static int maxProfit(int[] prices, int buy, int i, int transactions, int[][][] dp) {
         if(i == prices.length || transactions == 2) {
             return 0;
         }
@@ -42,13 +48,4 @@ class Solution {
         dp[transactions][buy][i] = Math.max(profit, 0); 
         return Math.max(profit, 0);
     }
-}
-
-public class MaxProfit {
-    public static void main(String[] args) {
-        int[] prices = {1,2,3,4,5};
-
-        System.out.println(new Solution().maxProfit(prices));
-    }    
-    
 }

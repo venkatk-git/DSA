@@ -1,8 +1,19 @@
 package DynamicProgramming.Nightmare;
 
 import java.util.Arrays;
+public class MaximumPathSum {
+    public static void main(String[] args) {
+        int[][] matrix = {
+            {-9999, -9888, -9777, -9666, -9555},
+            {1, 10, 2, 4, 5},
+            {-9999, -9888, -9777, -9666, -9555},
+            {0, 0, 0, 0, 0},
+            {-99, -98, -97, -96, -95}
+        };
 
-class Solution {
+        System.out.println(getMaxPathSum(matrix));
+    }
+
     public static int getMaxPathSum(int[][] matrix) {
         int[][] dp = new int[matrix.length][matrix[0].length];
         
@@ -40,21 +51,6 @@ class Solution {
         
         dp[i][j] = matrix[i][j] + Math.max(Math.max(leftDiagonal, down), rightDiagonal);
         return dp[i][j];
-    }
-}
-
-public class MaximumPathSum {
-    public static void main(String[] args) {
-        int[][] matrix = {
-            {-9999, -9888, -9777, -9666, -9555},
-            {1, 10, 2, 4, 5},
-            {-9999, -9888, -9777, -9666, -9555},
-            {0, 0, 0, 0, 0},
-            {-99, -98, -97, -96, -95}
-        };
-
-        Solution solution = new Solution();
-        System.out.println(solution.getMaxPathSum(matrix));
     }
     
 }

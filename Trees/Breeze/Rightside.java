@@ -1,4 +1,4 @@
-package Trees;
+package Trees.Breeze;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -24,47 +24,49 @@ class TreeNode {
 }
 
 class Solution {
-    public List<Integer> bfs(TreeNode root) {
-        List<Integer> bfs = new ArrayList<>();
+    public List<Integer> rightSideView(TreeNode root) {
+        if(root == null) {
+            return new ArrayList<>();
+        }
+
+        List<Integer> list = new ArrayList<>();
 
         Deque<TreeNode> q = new ArrayDeque<>();
         q.offer(root);
 
         while(!q.isEmpty()) {
-            System.out.println(q);
             int size = q.size();
-            
-            for(int i = 0; i < size; i++) {
-                TreeNode currNode = q.poll();    
-                bfs.add(currNode.val);
-                
-                
-                if(currNode.left != null) {
-                    q.offer(currNode.left);
-                }
+            TreeNode rightSideNode = null;
 
-                if(currNode.right != null) {
-                    q.offer(currNode.right);
-                }
+            for(int i = 0; i < size; i++) {
+                TreeNode curr = q.poll();
+
+                if(curr.left != null) q.offer(curr.left);
+                if(curr.right != null) q.offer(curr.right);
+
+                rightSideNode = curr;
             }
+
+            list.add(rightSideNode.val);
         }
 
-        return bfs;
+        return list;
     }
 }
 
-public class LevelOrderTraversal {
+
+public class Rightside {
     public static void main(String[] args) {
+        Solution solution = new Solution();
+        
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.right = new TreeNode(3);
-        root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
-        root.right.left = new TreeNode(6);
-        root.right.right = new TreeNode(7);
-        root.left.left.left = new TreeNode(8);
-        root.left.left.right = new TreeNode(9);
+        root.right.right = new TreeNode(4);
 
-        System.out.println(new Solution().bfs(root));
-    }   
+
+        System.out.println(solution.rightSideView(root));
+    }
+    
 }

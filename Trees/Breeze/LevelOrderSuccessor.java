@@ -1,10 +1,22 @@
-package Trees;
+package Trees.Breeze;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-class Solution {
-    public static int levelOrderSuccssor(TreeNode root, int val) {
+public class LevelOrderSuccessor {
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(3);
+        root.left = new TreeNode(4);
+        root.right = new TreeNode(8);
+        root.left.left = new TreeNode(12);
+        root.left.right = new TreeNode(14);
+        root.right.left = new TreeNode(36);
+        root.right.right = new TreeNode(9);
+
+        System.out.println(levelOrderSuccssor(root, 3));
+    }  
+
+    private static int levelOrderSuccssor(TreeNode root, int val) {
         Deque<TreeNode> q = new ArrayDeque<>();
         q.offer(root);
 
@@ -34,18 +46,4 @@ class Solution {
 
         return -1;
     }
-}
-
-public class LevelOrderSuccessor {
-    public static void main(String[] args) {
-        TreeNode root = new TreeNode(3);
-        root.left = new TreeNode(4);
-        root.right = new TreeNode(8);
-        root.left.left = new TreeNode(12);
-        root.left.right = new TreeNode(14);
-        root.right.left = new TreeNode(36);
-        root.right.right = new TreeNode(9);
-
-        System.out.println(new Solution().levelOrderSuccssor(root, 3));
-    }  
 }

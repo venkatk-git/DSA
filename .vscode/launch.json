@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Diameter",
+            "request": "launch",
+            "mainClass": "Trees.Hustle.Diameter",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "SymmetricTree",
             "request": "launch",
             "mainClass": "Trees.SymmetricTree",

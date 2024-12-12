@@ -1,4 +1,4 @@
-package Trees;
+package Trees.Breeze;
 
 class Node {
     public int val;

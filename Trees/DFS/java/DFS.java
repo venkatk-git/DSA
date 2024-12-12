@@ -1,4 +1,4 @@
-package Trees.DFS;
+package Trees.DFS.java;
 
 import java.util.Stack;
 
