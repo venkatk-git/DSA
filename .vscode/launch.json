@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BellmanFord",
+            "request": "launch",
+            "mainClass": "BellmanFord",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "SimplifyPath",
             "request": "launch",
             "mainClass": "StacksAndQueues.SimplifyPath",
