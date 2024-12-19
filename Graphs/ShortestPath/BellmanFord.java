@@ -51,6 +51,7 @@ public class BellmanFord {
             }
         }
 
+        // Just to find negative cycle
         for(int i = 0; i < V - 1; i++) {
             for(Vertex vertex: edges) {
                 int u = vertex.u;
@@ -58,7 +59,7 @@ public class BellmanFord {
                 int wt = vertex.wt;
 
                 if(dist[u] != Integer.MAX_VALUE && dist[u] + wt < dist[v]) {
-                    return new int[]{-1};
+                    return new int[]{-1}; // [-1] means, given graph have a negative cycle
                 }
             }
         }
