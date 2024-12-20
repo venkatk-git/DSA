@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestPalindrome",
+            "request": "launch",
+            "mainClass": "LeetCode.LongestPalindrome",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "PreAndInToBT",
             "request": "launch",
             "mainClass": "Trees.Hustle.PreAndInToBT",
