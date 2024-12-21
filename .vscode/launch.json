@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountSum",
+            "request": "launch",
+            "mainClass": "CountSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "LongestPalindrome",
             "request": "launch",
             "mainClass": "LeetCode.LongestPalindrome",
