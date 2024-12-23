@@ -1,60 +1,84 @@
 package Backtracking.Blaze;
 
+import cputils.FastReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class NQueens {
     public static void main(String[] args) {
-        boolean[][] board = new boolean[4][4];
-
-        int count = queens(board, 0);
-
-        System.out.println(count);
-    }
-
-    private static void display(boolean[][] board){
-        for (boolean[] row : board) {
-            for(boolean elem : row){
-                if(elem)
-                    System.out.print("Q");
-                else 
-                    System.out.print(".");    
-            }
-            System.out.println();
+        int n = new FastReader().nextInt();
+        
+        for(List<String> board: solveNQueens(n)) {
+            System.out.println(board);
         }
-        System.out.println();
     }
-
-    private static boolean isSafe(boolean[][] board, int r, int c){
-        for (boolean[] board1 : board) {
-            if (board1[c]) {
-                return false;
-            }
+    
+    public static List<List<String>> solveNQueens(int n) {
+        List<List<String>> boards = new ArrayList<>();
+        
+        boolean[][] board = new boolean[n][n];
+        for(boolean[] row: board) {
+            Arrays.fill(row, false);
         }
 
-        for(int i = 1; i <= Math.min(r, c); i++)
-             if(board[r - i][c - i])
-                return false;
-        
-        for(int i = 1; i <= Math.min(r, board.length - c - 1); i++)
-            if(board[r - i][c + i])
-                return false;
-        
+        solveNQueens(board, 0, n, boards);
+
+        return boards;
+    }
+
+    private static void solveNQueens(boolean[][] board, int i, int n, List<List<String>> boards) {
+        if(i == n) {
+            boards.add(new ArrayList<>(toStringList(board)));
+            return;
+        }
+
+        for(int j = 0; j < n; j++) {
+            if(isSafe(board, i, j)) {
+                board[i][j] = true;
+                solveNQueens(board, i + 1, n, boards);
+                board[i][j] = false;
+            }
+        }
+    }
+
+    private static boolean isSafe(boolean[][] board, int i, int j) {
+        // Check up direction
+        for(int row = i; row >= 0; row--) {
+            if(board[row][j]) return false;
+        }
+
+        // Check left direction
+        for(int col = j; col >= 0; col--) {
+            if(board[i][col]) return false;
+        }
+
+        // Check right-diagonal direction
+        for(int row = i, col = j; row >= 0 && col < board.length; row--, col++) {
+            if(board[row][col]) return false;
+        }
+
+        // Check left-diagonal direction
+        for(int row = i, col = j; row >= 0 && col >= 0; row--, col--) {
+            if(board[row][col]) return false;
+        }
+
         return true;
     }
 
-    private static int queens(boolean[][] board, int r){
-        if(r == board.length){
-            display(board);
-            return 1;
+    private static List<String> toStringList(boolean[][] board) {
+        List<String> newBoard = new ArrayList<>();
+
+        for (boolean[] row : board) {
+            StringBuilder s = new StringBuilder();
+            
+            for (int j = 0; j < board.length; j++) {
+                s.append(row[j] ? "Q" : ".");
+            }
+
+            newBoard.add(s.toString());
         }
 
-        int count = 0;
-        for(int c = 0; c < board.length; c++){
-            if(isSafe(board, r, c)){
-                board[r][c] = true;
-                count += queens(board, r + 1);
-                board[r][c] = false;
-            } 
-        }
-
-        return count;
+        return newBoard;
     }
 }

@@ -6,21 +6,11 @@ public class CountSum {
     }
 
     public static int countSum(int[] nums, int i, int sum, int t) {
-        if(sum == t) {
-            return 1;
-        }
+        if(sum == t) return 1;
+        if(i == nums.length) return 0;
 
-        if(i == nums.length) {
-            return 0;
-        }
-
-        int withCurrentElement = 0; 
-        int withoutCurrentElement = 0;
-        
-        for(int j = i; j < nums.length; j++) {
-            withCurrentElement = countSum(nums, i + 1, sum + nums[i], t);
-            withoutCurrentElement = countSum(nums, i + 1, sum, t);
-        }
+        int withCurrentElement = countSum(nums, i + 1, sum + nums[i], t);
+        int withoutCurrentElement = countSum(nums, i + 1, sum, t);
 
         return withCurrentElement + withoutCurrentElement;
     }

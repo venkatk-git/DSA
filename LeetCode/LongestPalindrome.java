@@ -1,10 +1,13 @@
 package LeetCode;
 
+import cputils.FastReader;
 import java.util.Arrays;
 
 public class LongestPalindrome {
     public static void main(String[] args) {
-        String s = "babad";
+        FastReader fr = new FastReader();
+        
+        String s = fr.nextLine();
 
         System.out.println(longestPalindrome(s));
     }
