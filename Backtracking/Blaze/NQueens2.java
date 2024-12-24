@@ -1,11 +1,11 @@
-package Backtracking.Blaze;
+    package Backtracking.Blaze;
 
-import cputils.FastReader;
-import java.util.Arrays;
+    import cputils.FastReader;
+    import java.util.Arrays;
 
-public class NQueens2 {
-    public static void main(String[] args) {
-        int n = new FastReader().nextInt();
+    public class NQueens2 {
+        public static void main(String[] args) {
+            int n = new FastReader().nextInt();
 
         System.out.println(totalNQueens(n));
     }
