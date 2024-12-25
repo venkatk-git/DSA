@@ -1,1206 +1,1213 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "type": "java",
-      "name": "CountSum",
-      "request": "launch",
-      "mainClass": "CountSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LongestPalindrome",
-      "request": "launch",
-      "mainClass": "LeetCode.LongestPalindrome",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "PreAndInToBT",
-      "request": "launch",
-      "mainClass": "Trees.Hustle.PreAndInToBT",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "BellmanFord",
-      "request": "launch",
-      "mainClass": "BellmanFord",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "main",
-      "request": "launch",
-      "mainClass": "main",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SimplifyPath",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.SimplifyPath",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SimplifyPath",
-      "request": "launch",
-      "mainClass": "SimplifyPath",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Diameter",
-      "request": "launch",
-      "mainClass": "Trees.Hustle.Diameter",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SymmetricTree",
-      "request": "launch",
-      "mainClass": "Trees.SymmetricTree",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Cousins",
-      "request": "launch",
-      "mainClass": "Trees.Cousins",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Combinations",
-      "request": "launch",
-      "mainClass": "Backtracking.Breeze.Combinations",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Subsets",
-      "request": "launch",
-      "mainClass": "Backtracking.Breeze.Subsets",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LevelOrderTraversal2",
-      "request": "launch",
-      "mainClass": "Trees.LevelOrderTraversal2",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "BestSum",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Blaze.BestSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Rightside",
-      "request": "launch",
-      "mainClass": "Trees.Rightside",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Zigzag",
-      "request": "launch",
-      "mainClass": "Trees.Zigzag",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LevelOrderSuccessor",
-      "request": "launch",
-      "mainClass": "Trees.LevelOrderSuccessor",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LevelOrderSuccessor",
-      "request": "launch",
-      "mainClass": "LevelOrderSuccessor",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "BFS",
-      "request": "launch",
-      "mainClass": "Trees.BFS.BFS",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "AvgOfLevels",
-      "request": "launch",
-      "mainClass": "Trees.AvgOfLevels.AvgOfLevels",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ChocolatePickup",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.ChocolatePickup.ChocolatePickup",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ChocolatePickup",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.ChocolatePickup.ChocolatePickup",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "AddBinary",
-      "request": "launch",
-      "mainClass": "Bit.AddBinary.AddBinary",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MaxProfit",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.BTS_IV.MaxProfit",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MaxProfit",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.BTS_IV.MaxProfit",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MaximumPathSum",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.MaximumPathSum.MaximumPathSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MaximumPathSum",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.MaximumPathSum.MaximumPathSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Triangle",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.Triangle.Triangle",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Triangle",
-      "request": "launch",
-      "mainClass": "Graphs.General.Triangle.Triangle",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LengthOfLIS",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.LengthOfLIS.LengthOfLIS",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "NinjaTraining",
-      "request": "launch",
-      "mainClass": "NinjaTraining",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "Trees.IterativeDFS.java.Main",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "Trie.SegmentTree.java.Main",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CourseSchedule2",
-      "request": "launch",
-      "mainClass": "Graphs.TopologicalSort.CourseSchedule2.java.CourseSchedule2",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CourseSchedule1",
-      "request": "launch",
-      "mainClass": "Graphs.TopologicalSort.CourseSchedule1.java.CourseSchedule1",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "Graphs.ShortestPathAlgorithms.Prims.Main",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MedianOfTwoArrays",
-      "request": "launch",
-      "mainClass": "BinarySearch.MedianOfTwoArrays.java.MedianOfTwoArrays",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MinimumPathSum",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.MinimumPathSum.java.MinimumPathSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MinimumPathSum",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.MinimumPathSum.java.MinimumPathSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CycleDetection",
-      "request": "launch",
-      "mainClass": "Graphs.TopologicalSort.CycleDetection.CycleDetection",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "TopoSort",
-      "request": "launch",
-      "mainClass": "Graphs.TopologicalSort.TopoSort.TopoSort",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "LeetCode.RandomizedSet.java.Main",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "RansomNote",
-      "request": "launch",
-      "mainClass": "HashMap.RansomNote.java.RansomNote",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LargestBST",
-      "request": "launch",
-      "mainClass": "Trees.LargestBST.java.LargestBST",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "BipartiteGraph",
-      "request": "launch",
-      "mainClass": "Graphs.BipartiteGraph.java.BipartiteGraph",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "NumberOfIsland",
-      "request": "launch",
-      "mainClass": "Graphs.NumberOfIsland.java.NumberOfIsland",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "WordLadder",
-      "request": "launch",
-      "mainClass": "WordLadder",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "NumberOfEnclaves",
-      "request": "launch",
-      "mainClass": "NumberOfEnclaves",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SurrondedRegions",
-      "request": "launch",
-      "mainClass": "SurrondedRegions",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "DetectCycle",
-      "request": "launch",
-      "mainClass": "Graphs.DetectCycle.java.DetectCycle",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "DFS",
-      "request": "launch",
-      "mainClass": "DFS",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "DetectCycle",
-      "request": "launch",
-      "mainClass": "DetectCycle",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "FloodFill",
-      "request": "launch",
-      "mainClass": "FloodFill",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "NumberOfProvinces",
-      "request": "launch",
-      "mainClass": "Graphs.NumberOfProvinces.java.NumberOfProvinces",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "InsertInterval",
-      "request": "launch",
-      "mainClass": "Greedy.InsertInterval.java.InsertInterval",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SJF",
-      "request": "launch",
-      "mainClass": "Greedy.ShortestJobFirst.java.SJF",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Candy",
-      "request": "launch",
-      "mainClass": "Greedy.Candy.java.Candy",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "JobSequence",
-      "request": "launch",
-      "mainClass": "Greedy.JobSequence.java.JobSequence",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MinimumPlatforms",
-      "request": "launch",
-      "mainClass": "Graphs.MinimumPlatforms.java.MinimumPlatforms",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "RottenOranges",
-      "request": "launch",
-      "mainClass": "Graphs.RottenOranges.java.RottenOranges",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ScheduleMeeting",
-      "request": "launch",
-      "mainClass": "Greedy.ScheduleMeeting.java.ScheduleMeeting",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ParenthesisWithStars",
-      "request": "launch",
-      "mainClass": "Greedy.ParenthesisWithStars.java.ParenthesisWithStars",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CoinChange",
-      "request": "launch",
-      "mainClass": "Greedy.CoinChange.java.CoinChange",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LemonadeChange",
-      "request": "launch",
-      "mainClass": "Greedy.LemonadeChange.java.LemonadeChange",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "FractionalKnapsack",
-      "request": "launch",
-      "mainClass": "Greedy.FractionalKnapsack.java.FractionalKnapsack",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "AssignCookies",
-      "request": "launch",
-      "mainClass": "Greedy.AssignCookies.java.AssignCookies",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.LFUCache.java.Main",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ClelebrityProblem",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.ClebrityProblem.java.ClelebrityProblem",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "UseLRUCache",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.LRUCache.java.UseLRUCache",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SlidingWindowMaximum",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.SlidingWindowMaximum.java.SlidingWindowMaximum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MaxAreaIsland",
-      "request": "launch",
-      "mainClass": "Graphs.MaxAreaIsland.java.MaxAreaIsland",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MinimumIsland",
-      "request": "launch",
-      "mainClass": "Graphs.MinimumIsland.java.MinimumIsland",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "IslandCount",
-      "request": "launch",
-      "mainClass": "Graphs.IslandCount.java.IslandCount",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "RemoveKDigits",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.RemoveKDigits.java.RemoveKDigits",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ShortestPath",
-      "request": "launch",
-      "mainClass": "Graphs.ShortestPath.java.ShortestPath",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MaximalRectangle",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.MaximalRectangle.java.MaximalRectangle",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LargeRectangleHistogram",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.LargeRectangleHistogram.java.LargeRectangleHistogram",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "AsteroidCollision",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.AsteroidCollision.java.AsteroidCollision",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "FindSafe",
-      "request": "launch",
-      "mainClass": "LeetCode.FindSafe.java.FindSafe",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LargestComponent",
-      "request": "launch",
-      "mainClass": "Graphs.LargestComponent.java.LargestComponent",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SubArrayRanges",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.SubArrayRanges.java.SubArrayRanges",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ComponentCounts",
-      "request": "launch",
-      "mainClass": "Graphs.ComponentCounts.java.ComponentCounts",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SumSubarraysMin",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.SumSubarraysMin.java.SumSubarraysMin",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "HasPath",
-      "request": "launch",
-      "mainClass": "HasPath",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "HasPath",
-      "request": "launch",
-      "mainClass": "Graphs.HasPath.java.HasPath",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "PSE",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.PSE.java.PSE",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "NGE2",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.NGE2.java.NGE2",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "BFS",
-      "request": "launch",
-      "mainClass": "Graphs.BFS.java.BFS",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "DFS",
-      "request": "launch",
-      "mainClass": "Graphs.DFS.java.DFS",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "NGE",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.NGE.java.NGE",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ValidParanthesis",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.ValidParanthesis.java.ValidParanthesis",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MinWindowSubstring",
-      "request": "launch",
-      "mainClass": "SlidingWindowAnd2Pointers.MinWindowSubstring.java.MinWindowSubstring",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SubarrayKDistinctIntegers",
-      "request": "launch",
-      "mainClass": "SlidingWindowAnd2Pointers.SubarrayKDistinctIntegers.java.SubarrayKDistinctIntegers",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SubarrayWithOddNum",
-      "request": "launch",
-      "mainClass": "SlidingWindowAnd2Pointers.SubarrayWithOddNum.java.SubarrayWithOddNum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MidNode",
-      "request": "launch",
-      "mainClass": "LinkedList.MidNode.java.MidNode",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LongestCharReplacement",
-      "request": "launch",
-      "mainClass": "SlidingWindowAnd2Pointers.LongestCharReplacement.java.LongestCharReplacement",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "OneEditDistance",
-      "request": "launch",
-      "mainClass": "LeetCode.OneEditDistance.java.OneEditDistance",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LongestCommonSubseq",
-      "request": "launch",
-      "mainClass": "LeetCode.LongestCommonSubseq.java.LongestCommonSubseq",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "DungeonHP",
-      "request": "launch",
-      "mainClass": "DungeonHP",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "NumberOfSubstrings",
-      "request": "launch",
-      "mainClass": "NumberOfSubstrings",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "UniquePaths2",
-      "request": "launch",
-      "mainClass": "LeetCode.UniquePaths2.java.UniquePaths2",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "UniquePaths",
-      "request": "launch",
-      "mainClass": "LeetCode.UniquePaths.java.UniquePaths",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "HouseRobber",
-      "request": "launch",
-      "mainClass": "LeetCode.HouseRobber.java.HouseRobber",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ClimbingStairs",
-      "request": "launch",
-      "mainClass": "LeetCode.ClimbingStairs.java.ClimbingStairs",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "FibonacciNumber",
-      "request": "launch",
-      "mainClass": "LeetCode.FibonacciNumber.java.FibonacciNumber",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "FibonacciNumber",
-      "request": "launch",
-      "mainClass": "FibonacciNumber",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LongestSubstringWithK",
-      "request": "launch",
-      "mainClass": "LongestSubstringWithK"
-    },
-    {
-      "type": "java",
-      "name": "LongestSubstringWithK",
-      "request": "launch",
-      "mainClass": "LongestSubstringWithK",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "JobSchedule",
-      "request": "launch",
-      "mainClass": "Greedy.JobSchedule.java.JobSchedule",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MergeIntervals",
-      "request": "launch",
-      "mainClass": "Greedy.MergeIntervals.java.MergeIntervals",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "NonOverlappingIntervals",
-      "request": "launch",
-      "mainClass": "Greedy.NonOverlappingIntervals.java.NonOverlappingIntervals",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MaximumProfit",
-      "request": "launch",
-      "mainClass": "Greedy.MaximumProfit.java.MaximumProfit",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MergeSort",
-      "request": "launch",
-      "mainClass": "LeetCode.MergeSort.java.MergeSort",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ReversePairs",
-      "request": "launch",
-      "mainClass": "LeetCode.ReversePairs.java.ReversePairs",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SortColors",
-      "request": "launch",
-      "mainClass": "LeetCode.SortColors.java.SortColors",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MoveZeros",
-      "request": "launch",
-      "mainClass": "LeetCode.MoveZeros.java.MoveZeros",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "Main",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "TrappingRainWater",
-      "request": "launch",
-      "mainClass": "TrappingRainWater",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SingleNumber",
-      "request": "launch",
-      "mainClass": "LeetCode.SingleNumber.java.SingleNumber",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "FruitBasket",
-      "request": "launch",
-      "mainClass": "FruitBasket",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MakeABouquet",
-      "request": "launch",
-      "mainClass": "LeetCode.MakeABouquet.java.MakeABouquet",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "PeekElement",
-      "request": "launch",
-      "mainClass": "LeetCode.PeekElement.java.PeekElement",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "KokoBananas",
-      "request": "launch",
-      "mainClass": "LeetCode.KokoBananas.java.KokoBananas",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MaxConsOnes3",
-      "request": "launch",
-      "mainClass": "LeetCode.MaxConsOnes3.java.MaxConsOnes3",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SearchInMatri",
-      "request": "launch",
-      "mainClass": "LeetCode.SearchInMatrix2.java.SearchInMatri",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "SearchInMatrix2",
-      "request": "launch",
-      "mainClass": "LeetCode.SearchInMatrix2.java.SearchInMatrix2",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LargestRecArea",
-      "request": "launch",
-      "mainClass": "LeetCode.LargestRecArea.java.LargestRecArea",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "Trees.BinarySearchTree.Implementation.java.Main",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Test",
-      "request": "launch",
-      "mainClass": "Trees.BinarySearchTree.Implementation.java.Test",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MaxPointCards",
-      "request": "launch",
-      "mainClass": "MaxPointCards",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "Trees.BinaryTree.Implementation.Main",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LongestSubarrSum",
-      "request": "launch",
-      "mainClass": "SlidingWindow.LongestSubarrSum.java.LongestSubarrSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MaxWindow",
-      "request": "launch",
-      "mainClass": "SlidingWindow.ConstantWindow.MaxWindow.java.MaxWindow",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ConstantWindow",
-      "request": "launch",
-      "mainClass": "SlidingWindow.ConstantWindow.java.ConstantWindow",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "ClimbingStairs",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.ClimbingStairs.java.ClimbingStairs",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MaximumSubArray",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.MaximumSubArray.java.MaximumSubArray",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MajorityElement2",
-      "request": "launch",
-      "mainClass": "LeetCode.MajorityElement2.java.MajorityElement2",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Queue.Implementation.java.Main",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "StacksAndQueues.Stack.Implementation.java.Main",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "UniquePaths2",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.UniquePaths2.java.UniquePaths2",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "UniquePaths",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.UniquePaths.java.UniquePaths",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "DecodeWays",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.DecodeWays.java.DecodeWays",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "HouseRobber",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.HouseRobber.java.HouseRobber",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CombinationSum",
-      "request": "launch",
-      "mainClass": "Backtracking.CombinationSum.java.CombinationSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "WordBreak",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.WorkBreak.java.WordBreak",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LongestIncSubSeq",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.LongestIncSubSeq.java.LongestIncSubSeq",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CoinChange",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.CoinChange.java.CoinChange",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "AllConstruct",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.AllConstruct.java.AllConstruct",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CountConstruct",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.CountConstruct.java.CountConstruct",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CanConstruct",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.CanConstruct.java.CanConstruct",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "HowSum",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.BestSum.java.HowSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "HowSum",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.HowSum.java.HowSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CanSum",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.CanSum.java.CanSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "GridTraveller",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.GridTraveller.java.GridTraveller",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Fibonacci",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Tabulation.Fibonacci.java.Fibonacci",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "AllConstruct",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.AllConstruct.java.AllConstruct",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CountConstruct",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.CountConstruct.java.CountConstruct",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CanConstruct",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.CanContruct.java.CanConstruct",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "BestSum",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.BestSum.java.BestSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "HowSum",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.HowSum.java.HowSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "CanSum",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.Memoization.CanSum.java.CanSum",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "GridTraveler",
-      "request": "launch",
-      "mainClass": "DynamicProgramming.GridTraveler.java.GridTraveler",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "NQueens",
-      "request": "launch",
-      "mainClass": "Backtracking.NQueens.java.NQueens",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MazeDLR",
-      "request": "launch",
-      "mainClass": "Backtracking.MazeDLR.java.MazeDLR",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "MazeDR",
-      "request": "launch",
-      "mainClass": "Backtracking.MazeDR.java.MazeDR",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "NumRollsToTarget",
-      "request": "launch",
-      "mainClass": "Recursion.NumRollsToTarget.java.NumRollsToTarget",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "LetterCombinations",
-      "request": "launch",
-      "mainClass": "LetterCombinations",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "Permutations",
-      "request": "launch",
-      "mainClass": "Recursion.Permutations.java.Permutations",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "type": "java",
-      "name": "PossibleSubsets",
-      "request": "launch",
-      "mainClass": "Recursion.Subsets.java.PossibleSubsets",
-      "projectName": "DSA_175c1f96"
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "d:/Projects/DSA",
-      "program": "d:/Projects/DSA/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
+    "version": "0.2.0",
+    "configurations": [
         {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
+            "type": "java",
+            "name": "ConcatenateStrings",
+            "request": "launch",
+            "mainClass": "SlidingWindowAnd2Pointers.ConcatenateStrings",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CountSum",
+            "request": "launch",
+            "mainClass": "CountSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LongestPalindrome",
+            "request": "launch",
+            "mainClass": "LeetCode.LongestPalindrome",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "PreAndInToBT",
+            "request": "launch",
+            "mainClass": "Trees.Hustle.PreAndInToBT",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "BellmanFord",
+            "request": "launch",
+            "mainClass": "BellmanFord",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SimplifyPath",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.SimplifyPath",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SimplifyPath",
+            "request": "launch",
+            "mainClass": "SimplifyPath",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Diameter",
+            "request": "launch",
+            "mainClass": "Trees.Hustle.Diameter",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SymmetricTree",
+            "request": "launch",
+            "mainClass": "Trees.SymmetricTree",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Cousins",
+            "request": "launch",
+            "mainClass": "Trees.Cousins",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Combinations",
+            "request": "launch",
+            "mainClass": "Backtracking.Breeze.Combinations",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Subsets",
+            "request": "launch",
+            "mainClass": "Backtracking.Breeze.Subsets",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LevelOrderTraversal2",
+            "request": "launch",
+            "mainClass": "Trees.LevelOrderTraversal2",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "BestSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Blaze.BestSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Rightside",
+            "request": "launch",
+            "mainClass": "Trees.Rightside",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Zigzag",
+            "request": "launch",
+            "mainClass": "Trees.Zigzag",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LevelOrderSuccessor",
+            "request": "launch",
+            "mainClass": "Trees.LevelOrderSuccessor",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LevelOrderSuccessor",
+            "request": "launch",
+            "mainClass": "LevelOrderSuccessor",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "BFS",
+            "request": "launch",
+            "mainClass": "Trees.BFS.BFS",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "AvgOfLevels",
+            "request": "launch",
+            "mainClass": "Trees.AvgOfLevels.AvgOfLevels",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ChocolatePickup",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.ChocolatePickup.ChocolatePickup",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ChocolatePickup",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.ChocolatePickup.ChocolatePickup",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "AddBinary",
+            "request": "launch",
+            "mainClass": "Bit.AddBinary.AddBinary",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaxProfit",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.BTS_IV.MaxProfit",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaxProfit",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.BTS_IV.MaxProfit",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaximumPathSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.MaximumPathSum.MaximumPathSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaximumPathSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.MaximumPathSum.MaximumPathSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.Triangle.Triangle",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "Graphs.General.Triangle.Triangle",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LengthOfLIS",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.LengthOfLIS.LengthOfLIS",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "NinjaTraining",
+            "request": "launch",
+            "mainClass": "NinjaTraining",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Trees.IterativeDFS.java.Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Trie.SegmentTree.java.Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CourseSchedule2",
+            "request": "launch",
+            "mainClass": "Graphs.TopologicalSort.CourseSchedule2.java.CourseSchedule2",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CourseSchedule1",
+            "request": "launch",
+            "mainClass": "Graphs.TopologicalSort.CourseSchedule1.java.CourseSchedule1",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Graphs.ShortestPathAlgorithms.Prims.Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MedianOfTwoArrays",
+            "request": "launch",
+            "mainClass": "BinarySearch.MedianOfTwoArrays.java.MedianOfTwoArrays",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MinimumPathSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.MinimumPathSum.java.MinimumPathSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MinimumPathSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.MinimumPathSum.java.MinimumPathSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CycleDetection",
+            "request": "launch",
+            "mainClass": "Graphs.TopologicalSort.CycleDetection.CycleDetection",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "TopoSort",
+            "request": "launch",
+            "mainClass": "Graphs.TopologicalSort.TopoSort.TopoSort",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LeetCode.RandomizedSet.java.Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "RansomNote",
+            "request": "launch",
+            "mainClass": "HashMap.RansomNote.java.RansomNote",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LargestBST",
+            "request": "launch",
+            "mainClass": "Trees.LargestBST.java.LargestBST",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "BipartiteGraph",
+            "request": "launch",
+            "mainClass": "Graphs.BipartiteGraph.java.BipartiteGraph",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfIsland",
+            "request": "launch",
+            "mainClass": "Graphs.NumberOfIsland.java.NumberOfIsland",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "WordLadder",
+            "request": "launch",
+            "mainClass": "WordLadder",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfEnclaves",
+            "request": "launch",
+            "mainClass": "NumberOfEnclaves",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SurrondedRegions",
+            "request": "launch",
+            "mainClass": "SurrondedRegions",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "DetectCycle",
+            "request": "launch",
+            "mainClass": "Graphs.DetectCycle.java.DetectCycle",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "DFS",
+            "request": "launch",
+            "mainClass": "DFS",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "DetectCycle",
+            "request": "launch",
+            "mainClass": "DetectCycle",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "FloodFill",
+            "request": "launch",
+            "mainClass": "FloodFill",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfProvinces",
+            "request": "launch",
+            "mainClass": "Graphs.NumberOfProvinces.java.NumberOfProvinces",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "InsertInterval",
+            "request": "launch",
+            "mainClass": "Greedy.InsertInterval.java.InsertInterval",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SJF",
+            "request": "launch",
+            "mainClass": "Greedy.ShortestJobFirst.java.SJF",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Candy",
+            "request": "launch",
+            "mainClass": "Greedy.Candy.java.Candy",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "JobSequence",
+            "request": "launch",
+            "mainClass": "Greedy.JobSequence.java.JobSequence",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MinimumPlatforms",
+            "request": "launch",
+            "mainClass": "Graphs.MinimumPlatforms.java.MinimumPlatforms",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "RottenOranges",
+            "request": "launch",
+            "mainClass": "Graphs.RottenOranges.java.RottenOranges",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ScheduleMeeting",
+            "request": "launch",
+            "mainClass": "Greedy.ScheduleMeeting.java.ScheduleMeeting",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ParenthesisWithStars",
+            "request": "launch",
+            "mainClass": "Greedy.ParenthesisWithStars.java.ParenthesisWithStars",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CoinChange",
+            "request": "launch",
+            "mainClass": "Greedy.CoinChange.java.CoinChange",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LemonadeChange",
+            "request": "launch",
+            "mainClass": "Greedy.LemonadeChange.java.LemonadeChange",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "FractionalKnapsack",
+            "request": "launch",
+            "mainClass": "Greedy.FractionalKnapsack.java.FractionalKnapsack",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "AssignCookies",
+            "request": "launch",
+            "mainClass": "Greedy.AssignCookies.java.AssignCookies",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.LFUCache.java.Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ClelebrityProblem",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.ClebrityProblem.java.ClelebrityProblem",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "UseLRUCache",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.LRUCache.java.UseLRUCache",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SlidingWindowMaximum",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.SlidingWindowMaximum.java.SlidingWindowMaximum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaxAreaIsland",
+            "request": "launch",
+            "mainClass": "Graphs.MaxAreaIsland.java.MaxAreaIsland",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MinimumIsland",
+            "request": "launch",
+            "mainClass": "Graphs.MinimumIsland.java.MinimumIsland",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "IslandCount",
+            "request": "launch",
+            "mainClass": "Graphs.IslandCount.java.IslandCount",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "RemoveKDigits",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.RemoveKDigits.java.RemoveKDigits",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ShortestPath",
+            "request": "launch",
+            "mainClass": "Graphs.ShortestPath.java.ShortestPath",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaximalRectangle",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.MaximalRectangle.java.MaximalRectangle",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LargeRectangleHistogram",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.LargeRectangleHistogram.java.LargeRectangleHistogram",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "AsteroidCollision",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.AsteroidCollision.java.AsteroidCollision",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "FindSafe",
+            "request": "launch",
+            "mainClass": "LeetCode.FindSafe.java.FindSafe",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LargestComponent",
+            "request": "launch",
+            "mainClass": "Graphs.LargestComponent.java.LargestComponent",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SubArrayRanges",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.SubArrayRanges.java.SubArrayRanges",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ComponentCounts",
+            "request": "launch",
+            "mainClass": "Graphs.ComponentCounts.java.ComponentCounts",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SumSubarraysMin",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.SumSubarraysMin.java.SumSubarraysMin",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "HasPath",
+            "request": "launch",
+            "mainClass": "HasPath",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "HasPath",
+            "request": "launch",
+            "mainClass": "Graphs.HasPath.java.HasPath",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "PSE",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.PSE.java.PSE",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "NGE2",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.NGE2.java.NGE2",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "BFS",
+            "request": "launch",
+            "mainClass": "Graphs.BFS.java.BFS",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "DFS",
+            "request": "launch",
+            "mainClass": "Graphs.DFS.java.DFS",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "NGE",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.NGE.java.NGE",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ValidParanthesis",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.ValidParanthesis.java.ValidParanthesis",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MinWindowSubstring",
+            "request": "launch",
+            "mainClass": "SlidingWindowAnd2Pointers.MinWindowSubstring.java.MinWindowSubstring",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SubarrayKDistinctIntegers",
+            "request": "launch",
+            "mainClass": "SlidingWindowAnd2Pointers.SubarrayKDistinctIntegers.java.SubarrayKDistinctIntegers",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SubarrayWithOddNum",
+            "request": "launch",
+            "mainClass": "SlidingWindowAnd2Pointers.SubarrayWithOddNum.java.SubarrayWithOddNum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MidNode",
+            "request": "launch",
+            "mainClass": "LinkedList.MidNode.java.MidNode",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LongestCharReplacement",
+            "request": "launch",
+            "mainClass": "SlidingWindowAnd2Pointers.LongestCharReplacement.java.LongestCharReplacement",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "OneEditDistance",
+            "request": "launch",
+            "mainClass": "LeetCode.OneEditDistance.java.OneEditDistance",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LongestCommonSubseq",
+            "request": "launch",
+            "mainClass": "LeetCode.LongestCommonSubseq.java.LongestCommonSubseq",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "DungeonHP",
+            "request": "launch",
+            "mainClass": "DungeonHP",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfSubstrings",
+            "request": "launch",
+            "mainClass": "NumberOfSubstrings",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "UniquePaths2",
+            "request": "launch",
+            "mainClass": "LeetCode.UniquePaths2.java.UniquePaths2",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "UniquePaths",
+            "request": "launch",
+            "mainClass": "LeetCode.UniquePaths.java.UniquePaths",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "HouseRobber",
+            "request": "launch",
+            "mainClass": "LeetCode.HouseRobber.java.HouseRobber",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ClimbingStairs",
+            "request": "launch",
+            "mainClass": "LeetCode.ClimbingStairs.java.ClimbingStairs",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciNumber",
+            "request": "launch",
+            "mainClass": "LeetCode.FibonacciNumber.java.FibonacciNumber",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciNumber",
+            "request": "launch",
+            "mainClass": "FibonacciNumber",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstringWithK",
+            "request": "launch",
+            "mainClass": "LongestSubstringWithK"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstringWithK",
+            "request": "launch",
+            "mainClass": "LongestSubstringWithK",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "JobSchedule",
+            "request": "launch",
+            "mainClass": "Greedy.JobSchedule.java.JobSchedule",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MergeIntervals",
+            "request": "launch",
+            "mainClass": "Greedy.MergeIntervals.java.MergeIntervals",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "NonOverlappingIntervals",
+            "request": "launch",
+            "mainClass": "Greedy.NonOverlappingIntervals.java.NonOverlappingIntervals",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaximumProfit",
+            "request": "launch",
+            "mainClass": "Greedy.MaximumProfit.java.MaximumProfit",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "LeetCode.MergeSort.java.MergeSort",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ReversePairs",
+            "request": "launch",
+            "mainClass": "LeetCode.ReversePairs.java.ReversePairs",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SortColors",
+            "request": "launch",
+            "mainClass": "LeetCode.SortColors.java.SortColors",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MoveZeros",
+            "request": "launch",
+            "mainClass": "LeetCode.MoveZeros.java.MoveZeros",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainWater",
+            "request": "launch",
+            "mainClass": "TrappingRainWater",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SingleNumber",
+            "request": "launch",
+            "mainClass": "LeetCode.SingleNumber.java.SingleNumber",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "FruitBasket",
+            "request": "launch",
+            "mainClass": "FruitBasket",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MakeABouquet",
+            "request": "launch",
+            "mainClass": "LeetCode.MakeABouquet.java.MakeABouquet",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "PeekElement",
+            "request": "launch",
+            "mainClass": "LeetCode.PeekElement.java.PeekElement",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "KokoBananas",
+            "request": "launch",
+            "mainClass": "LeetCode.KokoBananas.java.KokoBananas",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaxConsOnes3",
+            "request": "launch",
+            "mainClass": "LeetCode.MaxConsOnes3.java.MaxConsOnes3",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SearchInMatri",
+            "request": "launch",
+            "mainClass": "LeetCode.SearchInMatrix2.java.SearchInMatri",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "SearchInMatrix2",
+            "request": "launch",
+            "mainClass": "LeetCode.SearchInMatrix2.java.SearchInMatrix2",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LargestRecArea",
+            "request": "launch",
+            "mainClass": "LeetCode.LargestRecArea.java.LargestRecArea",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Trees.BinarySearchTree.Implementation.java.Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Trees.BinarySearchTree.Implementation.java.Test",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaxPointCards",
+            "request": "launch",
+            "mainClass": "MaxPointCards",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Trees.BinaryTree.Implementation.Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubarrSum",
+            "request": "launch",
+            "mainClass": "SlidingWindow.LongestSubarrSum.java.LongestSubarrSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaxWindow",
+            "request": "launch",
+            "mainClass": "SlidingWindow.ConstantWindow.MaxWindow.java.MaxWindow",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ConstantWindow",
+            "request": "launch",
+            "mainClass": "SlidingWindow.ConstantWindow.java.ConstantWindow",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "ClimbingStairs",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.ClimbingStairs.java.ClimbingStairs",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MaximumSubArray",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.MaximumSubArray.java.MaximumSubArray",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MajorityElement2",
+            "request": "launch",
+            "mainClass": "LeetCode.MajorityElement2.java.MajorityElement2",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Queue.Implementation.java.Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "StacksAndQueues.Stack.Implementation.java.Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "UniquePaths2",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.UniquePaths2.java.UniquePaths2",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "UniquePaths",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.UniquePaths.java.UniquePaths",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "DecodeWays",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.DecodeWays.java.DecodeWays",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "HouseRobber",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.HouseRobber.java.HouseRobber",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CombinationSum",
+            "request": "launch",
+            "mainClass": "Backtracking.CombinationSum.java.CombinationSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "WordBreak",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.WorkBreak.java.WordBreak",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LongestIncSubSeq",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.LongestIncSubSeq.java.LongestIncSubSeq",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CoinChange",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.CoinChange.java.CoinChange",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "AllConstruct",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.AllConstruct.java.AllConstruct",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CountConstruct",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.CountConstruct.java.CountConstruct",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CanConstruct",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.CanConstruct.java.CanConstruct",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "HowSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.BestSum.java.HowSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "HowSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.HowSum.java.HowSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CanSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.CanSum.java.CanSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "GridTraveller",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.GridTraveller.java.GridTraveller",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Tabulation.Fibonacci.java.Fibonacci",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "AllConstruct",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.AllConstruct.java.AllConstruct",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CountConstruct",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.CountConstruct.java.CountConstruct",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CanConstruct",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.CanContruct.java.CanConstruct",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "BestSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.BestSum.java.BestSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "HowSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.HowSum.java.HowSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "CanSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Memoization.CanSum.java.CanSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "GridTraveler",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.GridTraveler.java.GridTraveler",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "NQueens",
+            "request": "launch",
+            "mainClass": "Backtracking.NQueens.java.NQueens",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MazeDLR",
+            "request": "launch",
+            "mainClass": "Backtracking.MazeDLR.java.MazeDLR",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "MazeDR",
+            "request": "launch",
+            "mainClass": "Backtracking.MazeDR.java.MazeDR",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "NumRollsToTarget",
+            "request": "launch",
+            "mainClass": "Recursion.NumRollsToTarget.java.NumRollsToTarget",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "LetterCombinations",
+            "request": "launch",
+            "mainClass": "LetterCombinations",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Permutations",
+            "request": "launch",
+            "mainClass": "Recursion.Permutations.java.Permutations",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "PossibleSubsets",
+            "request": "launch",
+            "mainClass": "Recursion.Subsets.java.PossibleSubsets",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "cppdbg",
+            "request": "launch",
+            "args": [],
+            "stopAtEntry": false,
+            "externalConsole": true,
+            "cwd": "d:/Projects/DSA",
+            "program": "d:/Projects/DSA/build/Debug/outDebug",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
