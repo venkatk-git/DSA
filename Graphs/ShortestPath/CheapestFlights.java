@@ -56,9 +56,9 @@ public class CheapestFlights {
             if(stops > k) continue;
             for(Edge city: graph.get(srcCity)) {
                 int destCity = city.dest;
-                int price = city.price;
+                int destPrice = city.price;
 
-                int calculatedPrice = price + srcPrice;
+                int calculatedPrice = destPrice + srcPrice;
                 if(calculatedPrice < prices[destCity] && stops <= k) {
                     prices[destCity] = calculatedPrice;
                     q.offer(new City(destCity, stops + 1, calculatedPrice));

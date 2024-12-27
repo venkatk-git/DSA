@@ -26,12 +26,12 @@ public class MaxPathSum {
         System.out.println(maxPathSum(root));
     }
     
-    public static int maxPathSum(TreeNode root) {
+    private static int maxPathSum(TreeNode root) {
         _maxPathSum(root);
         return maxPathSum;
     }
 
-    public static int _maxPathSum(TreeNode root) {
+    private static int _maxPathSum(TreeNode root) {
         if(root == null) return 0;
         
         int computedSum = root.val;
