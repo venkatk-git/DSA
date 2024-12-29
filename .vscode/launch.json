@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortList",
+            "request": "launch",
+            "mainClass": "LinkedList.SortList",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "NumberOfSegments",
             "request": "launch",
             "mainClass": "SlidingWindowAnd2Pointers.NumberOfSegments",
