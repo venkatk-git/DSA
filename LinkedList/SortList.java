@@ -32,7 +32,6 @@ public class SortList {
         }
     }
 
-    // Helper method to create a linked list from an array
     private static ListNode createLinkedList(int[] list) {
         ListNode head = new ListNode(0);
         ListNode curr = head;
