@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ZigzagConversion",
+            "request": "launch",
+            "mainClass": "LeetCode.ZigzagConversion",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "SortList",
             "request": "launch",
             "mainClass": "LinkedList.SortList",
