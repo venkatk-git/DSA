@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KPairsWIthSmallSum",
+            "request": "launch",
+            "mainClass": "Heap.Blaze.KPairsWIthSmallSum",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "ZigzagConversion",
             "request": "launch",
             "mainClass": "LeetCode.ZigzagConversion",
