@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MirrorScoreOfString",
+            "request": "launch",
+            "mainClass": "LeetCode.MirrorScoreOfString",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "KPairsWIthSmallSum",
             "request": "launch",
             "mainClass": "Heap.Blaze.KPairsWIthSmallSum",
