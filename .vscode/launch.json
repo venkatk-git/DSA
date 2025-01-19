@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WordSearch",
+            "request": "launch",
+            "mainClass": "Backtracking.Hustle.WordSearch",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "EvaluateDivision",
             "request": "launch",
             "mainClass": "Graphs.General.EvaluateDivision",
