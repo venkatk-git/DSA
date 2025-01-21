@@ -31,6 +31,7 @@ public class Dijkstra {
             if (shortest.containsKey(n1)) {
                 continue;
             }
+            
             shortest.put(n1, w1);
             
             for (Integer[] pair: adj.get(n1)) {
