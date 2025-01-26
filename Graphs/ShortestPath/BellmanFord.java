@@ -40,10 +40,10 @@ public class BellmanFord {
         
         dist[src] = 0;
         for(int i = 0; i < V - 1; i++) {
-            for(Vertex vertex: edges) {
-                int u = vertex.u;
-                int v = vertex.v;
-                int wt = vertex.wt;
+            for(Vertex edge: edges) {
+                int u = edge.u;
+                int v = edge.v;
+                int wt = edge.wt;
 
                 if(dist[u] != Integer.MAX_VALUE && dist[u] + wt < dist[v]) {
                     dist[v] = dist[u] + wt;

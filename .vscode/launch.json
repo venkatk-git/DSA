@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShortestPathInDAG",
+            "request": "launch",
+            "mainClass": "Graphs.ShortestPath.ShortestPathInDAG",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "WordSearch",
             "request": "launch",
             "mainClass": "Backtracking.Hustle.WordSearch",
