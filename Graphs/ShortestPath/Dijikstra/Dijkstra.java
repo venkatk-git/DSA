@@ -1,46 +1,60 @@
 package Graphs.ShortestPathAlgorithms.Dijikstra;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 public class Dijkstra {
-    
-    public static Map<Integer, Integer> shortestPath(int[][] edges, int n, int src) {
-        Map<Integer, ArrayList<Integer[]>> adj = new HashMap<>();
+    public static void main(String[] args) {
+        int[][] edges = {
+            {1, 2, 1},
+            {1, 4, 2},
+            {2, 3, 4},
+            {4, 2, 3},
+            {4, 3, 1},
+            {4, 5, 4},
+            {3, 5, 5}
+        };
+
+        System.out.println(Arrays.toString(shortestPath(edges, 5, 1)));
+    }
+
+    public static int[] shortestPath(int[][] edges, int n, int src) {
+        Map<Integer, List<int[]>> graph = new HashMap<>();
         
-        for (int i = 1; i < n + 1; i++) {
-            adj.put(i, new ArrayList<>());
+        for (int i = 1; i <= n; i++) {
+            graph.put(i, new ArrayList<>());
         }
         for (int[] edge : edges) {
-            // s = src, d = dst, w = weight
             int s = edge[0], d = edge[1], w = edge[2];
-            adj.get(s).add(new Integer[] {d, w});
+            graph.get(s).add(new int[] {d, w});
         }
 
-        HashMap<Integer, Integer> shortest = new HashMap<>();
-        Queue<int[]> minHeap = new PriorityQueue<>((n1, n2) -> (n1[0] - n2[0]));
-        minHeap.add(new int[]{0, src});
+        int[] dist = new int[n + 1];
+        Arrays.fill(dist, (int)1e8);
+        dist[src] = 0;
+        
+        PriorityQueue<int[]> pq = new PriorityQueue<>((e1, e2) -> e1[1] - e2[1]);
+        pq.offer(new int[]{src, 0});
 
-        while(!minHeap.isEmpty()){
-            int[] cur = minHeap.remove();
-            int w1 = cur[0], n1 = cur[1];
-            
-            if (shortest.containsKey(n1)) {
-                continue;
-            }
-            
-            shortest.put(n1, w1);
-            
-            for (Integer[] pair: adj.get(n1)) {
-                int n2 = pair[0], w2 = pair[1];
-                if (!shortest.containsKey(n2)) {
-                    minHeap.add(new int[]{w1 + w2, n2});
+        while (!pq.isEmpty()) {
+            int[] node = pq.poll();
+            int u = node[0];
+            int w = node[1];
+
+            for (int[] nei: graph.get(u)) {
+                int v = nei[0], vw = nei[1];
+
+                if (w + vw < dist[v]) {
+                    dist[v] = w + vw;
+                    pq.offer(new int[]{v, dist[v]});
                 }
             }
         }
-        return shortest;
+        
+        return dist;
     }
 }

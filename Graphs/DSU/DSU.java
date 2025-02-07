@@ -23,7 +23,7 @@ public class DSU {
         if (xSet == ySet)
             return false;
 
-        if (xSet > ySet) {
+        if (rank[xSet] > rank[ySet]) {
             parent[y] = parent[x];
             rank[xSet] += rank[ySet];
         } else {
